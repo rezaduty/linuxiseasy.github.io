@@ -1,17 +1,28 @@
 <div class="tree-posts">
 
-    <h3>*Posts*</h3>
+<pre><center> ___   __   ___  ____  ___ 
+(  ,\ /  \ / __)(_  _)/ __)
+ ) _/( () )\__ \  )(  \__ \
+(_)   \__/ (___/ (__) (___/</center></pre>
+{% assign postss = (site.posts | sort: 'date') | reverse %}
 
-    {% for post in site.posts %}
+ 
+ <!--
+    <ul class="two">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+    </ul>
+-->
+    
+    <ul class="four">
 
-    <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-        <div class="content">
-            <a title="Open the post" href="{{ post.url | prepend: site.baseurl }}">
-                <h2 class="post-title" itemprop="name">{{ post.title | replace: ' ','-'}}.md</h2>
-            </a>
-        </div>
-    </article>
 
-    {% endfor %}
+        {% for post in postss %}
+
+            <li><a class="tree-post" href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></li>
+        {% endfor %}
+
+    </ul>
 
 </div>

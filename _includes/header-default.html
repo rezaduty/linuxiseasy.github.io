@@ -2,7 +2,7 @@
     <div class="content">
 
         <div class="person">
-            <img alt="My photo" src="https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png">
+            <img alt="My photo" src="/assets/img/static/Tux.svg.png">
         </div>
 
         <h1>
@@ -10,36 +10,92 @@
         </h1>
 
         <div class="icons-home">
-            <a aria-label="Send email" title="Send me a e-mail" href="mailto:{{site.email}}">
-                <svg class="icon icon-email"><use xlink:href="#icon-email"></use></svg>
+            <a target="_blank" aria-label="Debian" title="Debian Linux" href="https://distrowatch.com/debian">
+                <svg class="icon icon-debian"><use xlink:href="#icon-debian"></use></svg>
+            </a>
+            <a target="_blank" aria-label="OpenSuse" title="OpenSuse Linux" href="https://distrowatch.com/opensuse">
+                <svg class="icon icon-opensuse"><use xlink:href="#icon-opensuse"></use></svg>
+            </a>
+            
+            <a target="_blank" aria-label="Minix" title="Minix Linux" href=" https://distrowatch.com/minix">
+                <svg class="icon icon-minix"><use xlink:href="#icon-minix"></use></svg>
+            </a>
+           
+            <a target="_blank" aria-label="Centos" title="Centos Linux" href="https://distrowatch.com/centos">
+                <svg class="icon icon-centos"><use xlink:href="#icon-centos"></use></svg>
+            </a>
+            <a target="_blank" aria-label="Elementry" title="Elementry Linux" href="https://distrowatch.com/elementary">
+                <svg class="icon icon-elementry"><use xlink:href="#icon-elementry"></use></svg>
+            </a>
+            
+            <a target="_blank" aria-label="Ubuntu" title="Ubuntu Linux" href="https://distrowatch.com/ubuntu">
+                <svg class="icon icon-ubuntu"><use xlink:href="#icon-ubuntu"></use></svg>
+            </a>
+             
+            <a target="_blank" aria-label="Lfs" title="Lfs Linux" href="https://distrowatch.com/lfs">
+                <svg class="icon icon-lfs"><use xlink:href="#icon-lfs"></use></svg>
+            </a>
+            <a target="_blank" aria-label="Fedora" title="Fedora Linux" href="https://distrowatch.com/fedora">
+                <svg class="icon icon-fedora"><use xlink:href="#icon-fedora"></use></svg>
+            </a>
+            
+            <a target="_blank" aria-label="Gentoo" title="Gentoo Linux" href="https://distrowatch.com/gentoo">
+                <svg class="icon icon-gentoo"><use xlink:href="#icon-gentoo"></use></svg>
+            </a>
+            <a target="_blank" aria-label="Slackware" title="Slackware Linux" href="https://distrowatch.com/slackware">
+                <svg class="icon icon-slackware"><use xlink:href="#icon-slackware"></use></svg>
+            </a>
+            
+            <a target="_blank" aria-label="Redhat" title="Redhat Linux" href="https://distrowatch.com/redhat">
+                <svg class="icon icon-redhat"><use xlink:href="#icon-redhat"></use></svg>
             </a>
 
-            <a aria-label="My Twitter" title="Follow me on Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}">
-                <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+            <a target="_blank" aria-label="Arch" title="Arch Linux" target="_blank" href="https://distrowatch.com/arch">
+                <svg class="icon icon-arch"><use xlink:href="#icon-arch"></use></svg>
             </a>
 
-            <a aria-label="My Google Plus" title="Show my feed" target="_blank" href="https://plus.google.com/u/0/+{{site.gplus_username}}/posts">
+            <a target="_blank" aria-label="Freebsd" title="Freebsd Linux" target="_blank" href="https://distrowatch.com/freebsd">
+                <svg class="icon icon-freebsd"><use xlink:href="#icon-freebsd"></use></svg>
+            </a>
+
+            <a target="_blank" aria-label="My Google Plus" title="Show my feed" target="_blank" href="https://plus.google.com/u/0/+{{site.gplus_username}}/posts">
                 <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
             </a>
 
-            <a aria-label="My Github" title="Show my projetcts" target="_blank" href="https://github.com/{{site.github_username}}">
+            <a target="_blank" aria-label="My Github" title="Show my projetcts" target="_blank" href="https://github.com/{{site.github_username}}">
                 <svg class="icon icon-github-alt"><use xlink:href="#icon-github-alt"></use></svg>
             </a>
 
-            <a aria-label="Use the RSS to get updated" title="Register for my RSS" target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+            <a target="_blank" aria-label="Use the RSS to get updated" title="Register for my RSS" target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">
                 <svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg>
             </a>
         </div>
 
         <ul class="recent">
             <p>Recent posts:</p>
-             {% for post in site.posts limit:3%}
+            {% assign postss = (site.posts | sort: 'date') | reverse%}
+             {% for post in postss %}
+              {% if post.categories contains 'dist_rev' %}
+                
+              {% else %}
                 <li>
                     <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
                         <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
                     </a>
                 </li>
+              {% endif %}
               {% endfor %}
+            <p>Recent Review</p>
+                {% assign postss = (site.posts | sort: 'date') | reverse%}
+                 {% for post in postss %}
+                  {% if post.categories contains 'dist_rev' %}
+                    <li>
+                        <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
+                            <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+                        </a>
+                    </li>
+                  {% endif %}
+                  {% endfor %}
         </ul>
 
         <ul class="recent">
