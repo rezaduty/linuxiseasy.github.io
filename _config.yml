@@ -1,8 +1,8 @@
 # Site settings
 title: Linux Docs - rezaduty
 description: "A document about linux works and create customize linux ..."
-baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+baseurl: "https://rezaduty.github.io/linuxsh" # for test: remove string '/space-jekyll-templa' to ''
+url: "https://rezaduty.github.io/linuxsh" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # Linuxsh iso location
 _dev: "dv1-4.iso"
 _base: "v4-1.iso"
