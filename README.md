@@ -8,6 +8,7 @@ A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mo
 
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
+[![Jekyll](https://img.shields.io/badge/Powered-jekyll-brightgreen.svg)](https://jekyllrb.com/)
 
 See a live demo [here](https://rezaduty.github.io/linuxsh).
 
