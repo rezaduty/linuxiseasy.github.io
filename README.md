@@ -1,10 +1,16 @@
-# Space Jekyll
+# This Project bases on Space-jekyll
+very special thanks Victor Igor
+
+# Linuxsh
 
 A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
 
-See a live demo [here](https://victorvoid.github.io/space-jekyll-template/).
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
+[![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-![](https://github.com/victorvoid/space-jekyll-template/blob/master/screenshot.png?raw=true)
+See a live demo [here](https://rezaduty.github.io/linuxsh).
+
+![](https://www.dropbox.com/s/31it9ov78xnda7u/https%20%20%20rezaduty.github.io%20linuxsh%20.png?dl=1)
 
 # Site/User Settings
 
@@ -13,7 +19,7 @@ customize your site in ``_config.yml``
 ```ruby
 
 # Site settings
-description: A blog about lorem ipsum
+description: A blog about linuxsh remaster linux and learning linux
 baseurl: "" # the subpath
 url: "" # the base hostname &/|| protocol for your site 
 
@@ -52,7 +58,7 @@ twitter_text: 'How to speak with Lorem'
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2016 Victor Igor
+Copyright (c) 2017 rezaduty
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
