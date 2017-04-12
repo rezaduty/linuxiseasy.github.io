@@ -14,7 +14,7 @@ categories:
 ---
 
 
-<img src="{{ "/assets/img/how-to-give-linux-certificate/Linux-Certifications.jpg" }}">
+<img src="{{ site.url }}/assets/img/how-to-give-linux-certificate/Linux-Certifications.jpg">
 
 # linux cert is important or not
 
@@ -31,7 +31,7 @@ In the Linux certifications world the leaders are Red Hat and LPI, but also othe
 
 In the UNIX certifications world we can find three leaders Oracle with Solaris, HP with HP-UX and IBM with AIX. Also BSD has its own certifications.
 
-<img src="{{ "/assets/img/how-to-give-linux-certificate/redhat.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/how-to-give-linux-certificate/redhat.jpg" alt="">
 
 
 Red Hat creates with the Linux certification path, a lot for the whole industry and also creates new visions for other technologies.
@@ -49,7 +49,7 @@ Red Hat has in the portfolio 6 Linux certifications based on Red Hat Enterprise 
 
 ## LPI
 
-<img src="{{ "/assets/img/how-to-give-linux-certificate/LPI.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/how-to-give-linux-certificate/LPI.png" alt="">
 
 LPI has created a set of Linux certifications based on many distributions.
 
@@ -65,7 +65,7 @@ Bonus: Interview with Elzbieta Godlewska from LPI
 
 ## Novell
 
-<img src="{{ "/assets/img/how-to-give-linux-certificate/Novell.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/how-to-give-linux-certificate/Novell.jpg" alt="">
 
 Novell is a legend in the industry. Now, Novell provides a set of Linux certifications. These certifications are based on SUSE Linux distribution.
 Novell has in the portfolio 4 Linux certifications for administrators.
@@ -77,7 +77,7 @@ Novell has in the portfolio 4 Linux certifications for administrators.
 
 ## Oracle
 
-<img src="{{ "/assets/img/how-to-give-linux-certificate/logo_oracle.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/how-to-give-linux-certificate/logo_oracle.jpg" alt="">
 
 Oracle has created a distribution of Linux, based on Red Hat Enterprise Linux and also new Linux certifications.
 After acquiring SUN with Solaris operating system, Oracle started Oracle Certified Associate, Professional and Master paths for the Solaris system.
@@ -95,7 +95,7 @@ Oracle has in the portfolio 8 certifications for Linux and Solaris.
 
 ## IBM
 
-<img src="{{ "/assets/img/how-to-give-linux-certificate/IBM.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/how-to-give-linux-certificate/IBM.jpg" alt="">
 
 
 
@@ -114,7 +114,7 @@ IBM has in the portfolio 5 specialized Unix certifications for AIX.
 
 ## HP
 
-<img src="{{ "/assets/img/how-to-give-linux-certificate/HP.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/how-to-give-linux-certificate/HP.jpg" alt="">
 
 HP has in the offer many certifications, but only few that concentrate on an operating system. HP-UX is a well-known UNIX-based OS, that is use mainly with HP standalone servers and blades.
 
@@ -137,7 +137,7 @@ The BSD Certification Group has in the portfolio 2 UNIX certifications.
 
 ## CompTIA
 
-<img src="{{ "/assets/img/how-to-give-linux-certificate/comptia.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/how-to-give-linux-certificate/comptia.jpg" alt="">
 
 CompTIA has started cooperation with LPI to provide the best user experience for an entry-level Linux certification.
 
@@ -145,7 +145,7 @@ CompTIA has started cooperation with LPI to provide the best user experience for
 
 ## GIAC
 
-<img src="{{ "/assets/img/how-to-give-linux-certificate/GIAC.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/how-to-give-linux-certificate/GIAC.jpg" alt="">
 
 GIAC has created many great security certifications.
 
@@ -157,13 +157,13 @@ GIAC presents one certification and everyone who really thinks about work with L
 
 ## Job Board Survey Results
 
-<img src="{{ "/assets/img/how-to-give-linux-certificate/best.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/how-to-give-linux-certificate/best.png" alt="">
 
 ## Finaly list of top tutorial for learning linux certificate and give skill
 
 ### For Learn Lpic1 from lpi certificate 
 
-Please goto <a href="https://jadi.gitbooks.io/lpic1/content/">gitbook</a>
+Please goto <a target="_blank" href="https://jadi.gitbooks.io/lpic1/content/">gitbook</a>
 
 
 {% include content_option.html %}

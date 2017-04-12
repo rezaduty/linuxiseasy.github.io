@@ -19,7 +19,7 @@ categories:
 	Terminal is your friend.
 
 </p></center>
-<img src="{{ "/assets/img/linux-terminal/linux_terminal_tw.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-terminal/linux_terminal_tw.png" alt="">
 
 ## how to open terminal 
 
@@ -445,7 +445,7 @@ categories:
 <b><p>Cvak iranian linux was from isfehan and lpic1 cheatsheet<a href="/assets/img/linux-commands/c_lpic1.zip">&nbsp;sample</a></p></b><br>
 
 <p>
-<a href="http://www.cheat-sheets.org/#Linux">Cheat-Sheets.org</a> → All cheat sheets, round-ups, quick reference cards, quick reference guides and quick reference sheets in one page. The only one you need. <br>
+<a target="_blank" href="http://www.cheat-sheets.org/#Linux">Cheat-Sheets.org</a> → All cheat sheets, round-ups, quick reference cards, quick reference guides and quick reference sheets in one page. The only one you need. <br>
 
 <a target="_blank" href="http://www.linuxtutorialblog.com/post/tutorial-the-best-tips-tricks-for-bash">Tutorial: The best tips & tricks for bash, explained</a> → Linux Tutorial Blog / Quality Linux tutorials without clutter <br>
 

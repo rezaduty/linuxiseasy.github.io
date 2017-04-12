@@ -19,7 +19,7 @@ categories:
 	Terminal is powerful hand.
 
 </p></center>
-<img src="{{ "/assets/img/linux-terminal/Imitate-Fake-Hollywood-Terminal-Hacking-Melodrama-with-this-Amazing-App-for-Ubuntu-467788-3.jpg"}}" alt="">
+<img  src="{{ site.url }}/assets/img/linux-terminal/Imitate-Fake-Hollywood-Terminal-Hacking-Melodrama-with-this-Amazing-App-for-Ubuntu-467788-3.jpg"}}" alt="">
 
 ## List of Tips
 
@@ -43,16 +43,16 @@ categories:
 
 
 
-<img src="{{ "/assets/img/linux-terminal/linux-mint-17-qiana-640x361.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-terminal/linux-mint-17-qiana-640x361.png" alt="">
 
 
 ## 20 thing install after install linux mint.
 
 <h4 id="afterthing">fast and easy way</h4>
 <em>because post is long compress content and download pdf (sorry)</em>
-<a href="/assets/img/linux-terminal/binarytides_com.pdf">20thing</a>
+<a href="{{ site.url }}/assets/img/linux-terminal/binarytides_com.pdf">20thing</a>
 
-<img src="{{ "/assets/img/linux-terminal/asciiview.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-terminal/asciiview.png" alt="">
 
 
 ## How to funny work with terminal.
@@ -94,7 +94,7 @@ more information <a target="_blank" href="http://www.binarytides.com/linux-fun-c
 
 
 
-<img src="{{ "/assets/img/linux-terminal/sound.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-terminal/sound.png" alt="">
 
 
 ## How To Play Music From Command Line (Terminal)
@@ -140,7 +140,7 @@ To play next track Press <<em>Ctrl + c</<em> once and to stop or quit player, Pr
 
 
 
-<img src="{{ "/assets/img/linux-terminal/xtop.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.b5G8p2Z1Tv.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-terminal/xtop.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.b5G8p2Z1Tv.png" alt="">
 
 
 ## How to view your active processes in Terminal.
@@ -153,7 +153,7 @@ Type in the word top and you should see a nice list of processes and how much ra
 	top	
 {% endhighlight %}
 
-<img src="{{ "/assets/img/linux-terminal/power-button.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-terminal/power-button.jpg" alt="">
 
 ## How to Shutdown ,reboot,halt linux system.
 
@@ -251,7 +251,7 @@ When called with --force or when in runlevel 0 or 6, this tool invokes the reboo
 
 
 
-<img src="{{ "/assets/img/linux-terminal/youtube-dl.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-terminal/youtube-dl.png" alt="">
 
 
 ## How to Download Youtube Video
@@ -295,7 +295,7 @@ so it will download the video.
 You can also take a look at <a target="_blank" href="https://github.com/rg3/youtube-dl/blob/master/README.md#readme">this</a> for very in-depth documentation on how to use it.
 
 
-<img src="{{ "/assets/img/linux-terminal/terminator.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-terminal/terminator.png" alt="">
 
 
 ## How to Install tmux and Manage Multiple Linux Terminals(Terminal Multiplexer).
@@ -307,24 +307,24 @@ You can also take a look at <a target="_blank" href="https://github.com/rg3/yout
 	$ sudo apt-get install tmux
 {% endhighlight %}
 
-<img src="{{ "/assets/img/linux-terminal/tmux_default.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-terminal/tmux_default.png" alt="">
 
 <strong>Splitting tmux vertically</strong>
 
 To split tmux vertically, just press <em>(Ctrl-b) + %</em> . Then the screen will be separated vertically.
 
-<img src="{{ "/assets/img/linux-terminal/tmux_split_vertically.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-terminal/tmux_split_vertically.png" alt="">
 
 <strong>Splitting tmux horizontally</strong>
 
 
 To split tmux horizontally, press <em>(Ctrl-b) + “</em> . Then the sceen will be separated horizontally.
 
-<img src="{{ "/assets/img/linux-terminal/tmux_split_vertically.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-terminal/tmux_split_vertically.png" alt="">
 
 But of course we can mix them. Here’s another example.
 
-<img src="{{ "/assets/img/linux-terminal/tmux_split_more.png"}}" alt=""><br>
+<img src="{{ site.url }}/assets/img/linux-terminal/tmux_split_more.png" alt=""><br>
 
 <h4>Moving between panes</h4>
 
@@ -341,7 +341,7 @@ but find more information and tmux goto <a target="_blank" href="http://lukaszwr
 
 
 
-<img src="{{ "/assets/img/linux-terminal/monokai_cobalt_for_sublime_text_by_felipetiza-d6yf31y.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-terminal/monokai_cobalt_for_sublime_text_by_felipetiza-d6yf31y.png" alt="">
 
 ## How to install sublime 3 [3083].
 

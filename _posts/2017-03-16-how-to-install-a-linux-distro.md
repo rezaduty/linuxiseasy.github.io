@@ -14,14 +14,14 @@ categories:
 ---
 
 <center><p>The number of Linux distributions is declining. In 2011, the Distrowatch database of active Linux distributions peaked at <b>323</b></p></center>
-<img src="{{ "/assets/img/how-to-install-a-linux-distro/linux-logo.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/linux-logo.jpg" alt="">
 
 ## How to install a linux distro ? 
 
 
 <center>
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Install-Linux-Mint-18-Dual-Boot-with-Windows-10.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Install-Linux-Mint-18-Dual-Boot-with-Windows-10.png" alt="">
 </figure>
 </center>
 
@@ -33,27 +33,27 @@ Samply im select mint linux (becuase linux mint very similar windows user interf
 diskmgmt.msc
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Open-Windows-Disk-Management.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Open-Windows-Disk-Management.png" alt="">
 </figure>
 
 2.Right click on C: partition and select Shrink Volume in order to resize the partition.
 The OS is comprised of a number of pieces: 
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Shrink-Windows-Partition.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Shrink-Windows-Partition.png" alt="">
 </figure>
 
 
 3.Use a value best-suited for you, depending on your HDD size, on the amount of space to shrink MB field (minimum 20000 MB recommended) and hit Shrink button to start the process of resizing the partition.
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Assign-Partition-Size.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Assign-Partition-Size.png" alt="">
 </figure>
 
 4.When the process finishes a new unallocated space will appear on the hard drive.
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Unallocated-Partition.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Unallocated-Partition.png" alt="">
 </figure>
 
 Close Disk Management utility, place Linux Mint DVD or USB bootable image in the appropriate drive and reboot the computer in order to start with Linux Mint 18 installation.
@@ -69,7 +69,7 @@ In case you’re booting Linux Mint for installation from a USB dive in UEFI mod
 Once the media boots-up a new screen should appear on your monitor. Choose Start Linux Mint 18 Cinnamon and hit Enter to continue.
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Select-Start-Linux-Mint-Cinnamon-Install.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Select-Start-Linux-Mint-Cinnamon-Install.png" alt="">
 </figure>
 
 6.Wait until the system loads into RAM in order to run in live-mode and open the installer by double clicking on Install Linux Mint icon.
@@ -77,11 +77,11 @@ Once the media boots-up a new screen should appear on your monitor. Choose Start
 Choose the language you wish to perform the installation and click on Continue button to proceed further.
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Select-Install-Linux-Mint.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Select-Install-Linux-Mint.png" alt="">
 </figure>
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Select-Installation-Language.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Select-Installation-Language.png" alt="">
 </figure>
 
 
@@ -91,7 +91,7 @@ The recommendation would be to leave the box unchecked for the moment and manual
 
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Preparing-to-Install-Linux-Mint-18.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Preparing-to-Install-Linux-Mint-18.png" alt="">
 </figure>
 
 
@@ -102,7 +102,7 @@ The second option, Erase disk and install Ubuntu, should be avoided for dual-boo
 For a more flexible partition layout you should go with Something else option and hit on Continue button to proceed further.
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Select-Installation-Type-for-Linux-Mint-18.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Select-Installation-Type-for-Linux-Mint-18.png" alt="">
 </figure>
 
 
@@ -118,11 +118,11 @@ First create the swap partition. Select the free space and hit on the + icon fro
 {% endhighlight %}
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Select-Free-Partition-Space.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Select-Free-Partition-Space.png" alt="">
 </figure>
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Create-Swap-Partition.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Create-Swap-Partition.png" alt="">
 </figure>
 
 10.Using the same steps as above create the /(root) partition with the below settings:
@@ -136,11 +136,11 @@ First create the swap partition. Select the free space and hit on the + icon fro
 {% endhighlight %}
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Select-Free-Space.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Select-Free-Space.png" alt="">
 </figure>
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Create-Root-Partition.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Create-Root-Partition.png" alt="">
 </figure>
 
 11.Finally, create the home slice with the below settings (use all the available free space to create home partition).
@@ -156,7 +156,7 @@ Home partition is the place where all documents for user accounts will be stored
 {% endhighlight %}
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Create-Home-Partition.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Create-Home-Partition.png" alt="">
 </figure>
 
 12.After finishing creating the partition layout, select Windows Boot Manager as the device for installing the Grub boot loader and hit on Install Now button in order to commit changes to disk and proceed with the installation.
@@ -164,37 +164,37 @@ Home partition is the place where all documents for user accounts will be stored
 Next a new pop-up window will ask you if you agree with committing changes to disk. Hit on Continue to accept changes and the installer will now start to write changes to disk.
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Linux-Mint-18-Installation-Summary.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Linux-Mint-18-Installation-Summary.png" alt="">
 </figure>
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Accept-Write-Changes-to-Disk.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Accept-Write-Changes-to-Disk.png" alt="">
 </figure>
 
 13.On the next screen choose your nearest physical location from the map and hit Continue.
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Select-Country-Zone.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Select-Country-Zone.png" alt="">
 </figure>
 
 14.Next you should select your keyboard layout and click on Continue button.
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Select-Keyboard-Layout.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Select-Keyboard-Layout.png" alt="">
 </figure>
 
 
 15.Enter a username and a password for the first account with root privileges, choose your system hostname by filling the computer’s name field with a descriptive value and hit Continue to finalize the installation process.
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Create-User-Account.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Create-User-Account.png" alt="">
 </figure>
 
 
 16.The installation process will take a while and when it reaches the final step it will ask you to hit on Restart Now button to complete the installation.
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/how-to-install-a-linux-distro/Linux-Mint-18-Installation-Completed.png"}}" alt="">
+	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Linux-Mint-18-Installation-Completed.png" alt="">
 </figure>
 
 

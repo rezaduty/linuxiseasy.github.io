@@ -12,7 +12,7 @@ categories:
 - Linux  
 ---
 
-<img src="{{ "/assets/img/how-to-work-with-linux/tux-segretario.png "}}">
+<img src="{{ site.url }}/assets/img/how-to-work-with-linux/tux-segretario.png " alt="">
 
 ## Linux very easy for someone who knows
 
@@ -54,7 +54,7 @@ for example work with apache webserver and you dont known how to apache work
 
 please goto lpic course and help about linux services
 
-<a href="https://en.wikibooks.org/wiki/LPI_Linux_Certification/Implementing_A_Web_Server">LPI</a>
+<a target="_blank" href="https://en.wikibooks.org/wiki/LPI_Linux_Certification/Implementing_A_Web_Server">LPI</a>
 
 but you goto author website and getting help about it :D
 

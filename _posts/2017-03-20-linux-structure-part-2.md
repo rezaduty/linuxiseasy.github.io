@@ -20,7 +20,7 @@ categories:
 	For any person, who does not have a sound knowledge of Linux Operating System and Linux File System, dealing with the files and their location, their use may be horrible, and a newbie may really mess up.
 
 </p></center>
-<img src="{{ "/assets/img/linux-structure/20161010142555_Linux-ANGRY.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-structure/20161010142555_Linux-ANGRY.png" alt="">
 
 ## Linux Directory Structure Diagram
  
@@ -29,7 +29,7 @@ Linux Operating System has primarily three components
 A standard Linux distribution follows the directory structure as provided below with Diagram and explanation.
 
 
-<img src="{{ "/assets/img/linux-structure/Linux-Directory-Structure.jpeg"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-structure/Linux-Directory-Structure.jpeg" alt="">
 
 
 
@@ -67,7 +67,7 @@ Each of the above directory (which is a file, at the first place) contains impor
 → <strong>/dev/hdc</strong> : Device file for the <em>IDE Cdrom</em>, commonly<br>
 → <strong>/dev/null</strong> : A pseudo device, that don’t exist. Sometime garbage output is redirected to <em>/dev/null</em>, so that it gets lost, forever.<br>
 → <strong>/etc/bashrc</strong> : Contains system <em>defaults</em> and <em>aliases</em> used by bash shell.<br>
-→ <strong>/etc/crontab</strong> : A <a href="http://www.tecmint.com/category/bash-shell/" target="_blank">shell script</a> to run specified commands on a → predefined time Interval.<br>
+→ <strong>/etc/crontab</strong> : A <a target="_blank" href="http://www.tecmint.com/category/bash-shell/" target="_blank">shell script</a> to run specified commands on a → predefined time Interval.<br>
 → <strong>/etc/exports</strong> : Information of the file system available on <em>network</em>.<br>
 → <strong>/etc/fstab</strong> : Information of <em>Disk Drive</em> and their mount point.<br>
 → <strong>/etc/group</strong> : Information of <em>Security Group</em>.<br>
@@ -80,7 +80,7 @@ Each of the above directory (which is a file, at the first place) contains impor
 → <strong>/etc/inittab</strong> : INIT process and their interaction at various<em> run level</em>.<br>
 → <strong>/etc/issue</strong> : Allows to edit the <em>pre-login</em> message.<br>
 → <strong>/etc/modules.conf</strong> : Configuration files for <em>system modules</em>.<br>
-→ <strong>/etc/motd</strong> : <a href="http://www.tecmint.com/protect-ssh-logins-with-ssh-motd-banner-messages/" target="_blank">motd</a> stands for <em>→ Message Of The Day</em>, The Message users gets upon login.<br>
+→ <strong>/etc/motd</strong> : <a target="_blank" href="http://www.tecmint.com/protect-ssh-logins-with-ssh-motd-banner-messages/" target="_blank">motd</a> stands for <em>→ Message Of The Day</em>, The Message users gets upon login.<br>
 → <strong>/etc/mtab</strong> : Currently mounted <em>blocks</em> information.<br>
 → <strong>/etc/passwd</strong> : Contains <em>password</em> of system <em>users</em> in a shadow file, a security implementation.<br>
 → <strong>/etc/printcap</strong> : <em>Printer</em> Information<br>

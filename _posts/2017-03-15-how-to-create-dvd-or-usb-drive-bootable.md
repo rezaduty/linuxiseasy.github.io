@@ -15,7 +15,7 @@ categories:
 - Linux
 ---
 
-<img src="{{ "/assets/img/how-to-create-dvd-or-usb-drive-bootable/linux-usb.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/how-to-create-dvd-or-usb-drive-bootable/linux-usb.jpg" alt="">
 
 ## 1. Download Linux Mint
 

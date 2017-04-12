@@ -18,7 +18,7 @@ categories:
 <center><p>
 	Linux is one of popular version of UNIX operating System. It is open source as its source code is freely available. It is free to use. Linux was designed considering UNIX compatibility. Its functionality list is quite similar to that of UNIX.
 </p></center>
-<img src="{{ "/assets/img/linux-structure/20161010142555_Linux-ANGRY.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-structure/20161010142555_Linux-ANGRY.png" alt="">
 
 ## Components of Linux System
  
@@ -30,7 +30,7 @@ Linux Operating System has primarily three components
 
 → <strong>System Utility</strong> − System Utility programs are responsible to do specialized, individual level tasks.
 
-<img src="{{ "/assets/img/linux-structure/linux_os.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-structure/linux_os.jpg" alt="">
 
 ## Kernel Mode vs User Mode
 
@@ -63,7 +63,7 @@ Following are some of the important features of Linux Operating System.
 The following illustration shows the architecture of a Linux system
 
 
-<img src="{{ "/assets/img/linux-structure/linux_architecture.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-structure/linux_architecture.jpg" alt="">
 
 
 The architecture of a Linux System consists of the following layers −

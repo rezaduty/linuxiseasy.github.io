@@ -16,7 +16,7 @@ categories:
 ---
 
 <center><p>Tux is a penguin character and the official mascot of the Linux kernel</p></center>
-<img src="{{ "/assets/img/what-is-linux/1.gif"}}" alt="">
+<img src="{{ site.url }}/assets/img/what-is-linux/1.gif" alt="">
 
 ## What is Linux? 
 
@@ -25,7 +25,8 @@ Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating 
 <figure class="foto-legenda">
 	<figcaption> <p>From smartphones to cars, supercomputers and home appliances, the Linux operating system is everywhere.</p>
 	</figcaption>
-	<img src="{{ "/assets/img/what-is-linux/What-is-Linux-3.jpg"}}" alt="">
+	<img src="{{ site.url }}/assets/img/what-is-linux/What-is-Linux-3.jpg" alt="">
+
 </figure>
 
 The OS is comprised of a number of pieces: 
@@ -45,7 +46,7 @@ Graphical Server: This is the sub-system that displays the graphics on your moni
 <p style="font-size: 15px;">→ Applications: Desktop environments do not offer the full array of apps. Just like Windows and Mac, Linux offers thousands upon thousands of high-quality software titles that can be easily found and installed. Most modern Linux distributions (more on this in a moment) include App Store-like tools that centralize and simplify application installation. For example: Ubuntu Linux has the Ubuntu Software Center (Figure 1) which allows you to quickly search among the thousands of apps and install them from one centralized location. 
 </p>
 
-<img src="{{ "/assets/img/what-is-linux/vs.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/what-is-linux/vs.jpg" alt="">
 
 ## Why use Linux?
 
@@ -69,7 +70,7 @@ Linux is also distributed under an open source license. Open source follows the 
 The above are crucial to understanding the community that comes together to create the Linux platform. It is, without a doubt, an operating system that is “by the people, for the people”. These philosophies are also one of the main reasons a large percentage of people use Linux. It’s about freedom and freedom of choice.
 
 
-<img src="{{ "/assets/img/what-is-linux/distribute.jpg"}}" alt="">
+<img src="{{ site.url }}/assets/img/what-is-linux/distribute.jpg" alt="">
 
 
 ### What is a “distribution?"!
@@ -93,7 +94,7 @@ The most popular Linux distributions are:
 
 ⇒ openSUSE.
 
-Each distribution has a different take on the desktop. Some opt for <b>very modern user interfaces</b> (such as Ubuntu’s Unity, above, and Deepin’s Deepin Desktop), whereas others stick with a more traditional desktop environment (openSUSE uses KDE). For an easy guide to Linux desktops check out <a href="https://www.linux.com/learn/tutorials/783109-how-to-choose-the-best-linux-desktop-for-you">How to Find the Best Linux Desktop for You</a>. 
+Each distribution has a different take on the desktop. Some opt for <b>very modern user interfaces</b> (such as Ubuntu’s Unity, above, and Deepin’s Deepin Desktop), whereas others stick with a more traditional desktop environment (openSUSE uses KDE). For an easy guide to Linux desktops check out <a target="_blank" href="https://www.linux.com/learn/tutorials/783109-how-to-choose-the-best-linux-desktop-for-you">How to Find the Best Linux Desktop for You</a>. 
 
 You can check out the top 100 distributions on the Distrowatch site.
 
@@ -110,8 +111,8 @@ And don’t think the <b>server</b> has been left behind. For this arena, you ca
 
 ## Which distribution is right for you?
 
-<a href="http://www.linux.org/threads/which-distro-is-right-for-me.4834/">Please Goto linux.org</a><br>
-<a href="http://lifehacker.com/5889950/how-to-find-the-perfect-linux-distribution-for-you">And Please Goto lifehacker.com finally select linux distro</a>
+<a target="_blank" href="http://www.linux.org/threads/which-distro-is-right-for-me.4834/">Please Goto linux.org</a><br>
+<a target="_blank" href="http://lifehacker.com/5889950/how-to-find-the-perfect-linux-distribution-for-you">And Please Goto lifehacker.com finally select linux distro</a>
 
 {% include content_option.html %}
 
