@@ -90,7 +90,7 @@ span{
 </svg>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
-<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js"></script>
+<script src="http://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js"></script>
 
 
 <script type="text/javascript">
@@ -205,8 +205,8 @@ function loose() {
 		ease: Elastic.easeOut
 	});
 	// duplicate arrow
-	var newArrow = document.createElementNS("https://www.w3.org/2000/svg", "use");
-	newArrow.setAttributeNS('https://www.w3.org/1999/xlink', 'href', "#arrow");
+	var newArrow = document.createElementNS("http://www.w3.org/2000/svg", "use");
+	newArrow.setAttributeNS('http://www.w3.org/1999/xlink', 'href', "#arrow");
 	arrows.appendChild(newArrow);
 	
 	// animate arrow along path
