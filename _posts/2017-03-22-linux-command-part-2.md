@@ -19,7 +19,7 @@ categories:
 	Terminal is powerful hand.
 
 </p></center>
-<img  src="{{ site.url }}/assets/img/linux-terminal/Imitate-Fake-Hollywood-Terminal-Hacking-Melodrama-with-this-Amazing-App-for-Ubuntu-467788-3.jpg"}}" alt="">
+<img  src="{{ site.url }}/assets/img/linux-terminal/Imitate-Fake-Hollywood-Terminal-Hacking-Melodrama-with-this-Amazing-App-for-Ubuntu-467788-3.jpg" alt="">
 
 ## List of Tips
 

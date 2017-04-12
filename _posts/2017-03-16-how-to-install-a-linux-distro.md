@@ -222,9 +222,10 @@ That’s it! You have successfully installed the latest version of Linux Mint 18
 <center>
 	<b>Please Watch video</b>
 	<br>
-	<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/how-to-install-a-linux-distro/c0c895766d20ae5de27f91853edacf565943209-360p__57279.mp4">
-		Video Tag Not Support
-	</video>
+	<div class="video">
+		<div id="14920181636426942"><script type="text/JavaScript" src="https://www.aparat.com/embed/E8L43?data[rnddiv]=14920181636426942&data[responsive]=yes"></script></div>
+	</div>
+	<br><br>
 
 </center>
 

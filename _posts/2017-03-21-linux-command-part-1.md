@@ -34,9 +34,10 @@ categories:
 <center>
 		<b>Please Watch video</b>
 		<br>
-		<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/linux-terminal/Keyboard-shortcut-to-open-terminal-in-Linux-Mint-43.mp4">
-			Video Tag Not Support
-		</video>
+		<div class="video">
+			<div id="14920177592009820"><script type="text/JavaScript" src="https://www.aparat.com/embed/p2XTf?data[rnddiv]=14920177592009820&data[responsive]=yes"></script></div>
+		</div>
+		<br><br>
 
 </center>
 
@@ -45,10 +46,10 @@ categories:
 <center>
 		<b>Please Watch video</b>
 		<br>
-		<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/linux-terminal/Basic-File-and-Directory-Management-Introduction-To-Linux-Lecture-15-18.mp4">
-			Video Tag Not Support
-		</video>
-
+		<div class="video">
+			<div id="14920175432778242"><script type="text/JavaScript" src="https://www.aparat.com/embed/XpeDg?data[rnddiv]=14920175432778242&data[responsive]=yes"></script></div>
+		</div>
+		<br><br>
 </center>
 
 
@@ -117,9 +118,10 @@ categories:
 <center>
 		<b>Please Watch video</b>
 		<br>
-		<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/linux-terminal/Find-files-in-Linux-18.mp4">
-			Video Tag Not Support
-		</video>
+		<div class="video">
+			<div id="14920178899577480"><script type="text/JavaScript" src="https://www.aparat.com/embed/rx2bk?data[rnddiv]=14920178899577480&data[responsive]=yes"></script></div>
+		</div>
+		<br><br>
 
 </center>
 
@@ -136,9 +138,10 @@ categories:
 <center>
 		<b>Please Watch video</b>
 		<br>
-		<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/linux-terminal/Linux-file-permissions-explained-symbolic-permissions-and-chmod-part-1-43.mp4">
-			Video Tag Not Support
-		</video>
+		<div class="video">
+			<div id="1492017983546790"><script type="text/JavaScript" src="https://www.aparat.com/embed/E9cLS?data[rnddiv]=1492017983546790&data[responsive]=yes"></script></div>
+		</div>
+		<br><br>
 
 </center>
 
@@ -189,11 +192,12 @@ categories:
 <center>
 		<b>Please Watch video</b>
 		<br>
-		<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/linux-terminal/Printing-from-the-command-line-BASH-Linux-43.mp4">
-			Video Tag Not Support
-		</video>
-
+		<div class="video">
+			<div id="14920141622173599"><script type="text/JavaScript" src="https://www.aparat.com/embed/vAGDH?data[rnddiv]=14920141622173599&data[responsive]=yes"></script></div>
+		</div>
+		<br><br>
 </center>
+
 
 
 ## Network
@@ -212,10 +216,10 @@ categories:
 <center>
 		<b>Please Watch video</b>
 		<br>
-		<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/linux-terminal/HowTo-Guide-to-Ubuntu-Linux-Part-4-Network-Commands-18.mp4">
-			Video Tag Not Support
-		</video>
-
+		<div class="video">
+			<div id="14920177136846397"><script type="text/JavaScript" src="https://www.aparat.com/embed/F2PIh?data[rnddiv]=14920177136846397&data[responsive]=yes"></script></div>
+		</div>
+		<br><br>
 </center>
 
 
@@ -230,9 +234,10 @@ categories:
 <center>
 		<b>Please Watch video</b>
 		<br>
-		<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/linux-terminal/How-to-Use-the-SSH-Command-on-Linux-43.mp4">
-			Video Tag Not Support
-		</video>
+		<div class="video">
+			<div id="14920179289918513"><script type="text/JavaScript" src="https://www.aparat.com/embed/mGSxL?data[rnddiv]=14920179289918513&data[responsive]=yes"></script></div>
+		</div>
+		<br><br>
 
 </center>
 
@@ -271,9 +276,10 @@ categories:
 <center>
 		<b>Please Watch video</b>
 		<br>
-		<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/linux-terminal/mprocess.mp4">
-			Video Tag Not Support
-		</video>
+		<div class="video">
+			<div id="14920183169022237"><script type="text/JavaScript" src="https://www.aparat.com/embed/jrHWR?data[rnddiv]=14920183169022237&data[responsive]=yes"></script></div>
+		</div>
+		<br><br>
 
 </center>
 
@@ -409,14 +415,15 @@ categories:
 <center>
 		<b>Please Watch video</b>
 		<br>
-		<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/linux-terminal/howinstall.mp4">
-			Video Tag Not Support
-		</video>
+		<div class="video">
+			<div id="1492018029143582"><script type="text/JavaScript" src="https://www.aparat.com/embed/BvIpg?data[rnddiv]=1492018029143582&data[responsive]=yes"></script></div>
+		</div>
+		<br><br>
 
 </center>
-</p></p></p></p></p>
 
-## Stopping & Starting
+
+<h3>Stopping and Starting</h3>
 
 <p>
  <strong>shutdown -h now</strong> → Shutdown the system now and do not reboot<br>
@@ -437,7 +444,7 @@ categories:
 
 
 
-## Recommended reading
+<h3> Recommended reading</h3>
 
 <br>❝<a target="_blank" href="https://en.wikipedia.org/wiki/Cheat_sheet
 ">Cheat sheet</a> is very fast way learning❞

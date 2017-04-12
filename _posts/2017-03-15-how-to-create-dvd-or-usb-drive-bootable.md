@@ -80,10 +80,10 @@ Reboot your computer and Linux Mint should now boot from the live USB.
 <center>
 	<b>Please Watch video</b>
 	<br>
-	<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/how-to-create-dvd-or-usb-drive-bootable/How to create a bootable USB stick with Linux Live USB Creator LiLi-43.mp4">
-		Video Tag Not Support
-	</video>
-
+	<div class="video">
+		<div id="14920182194950616"><script type="text/JavaScript" src="https://www.aparat.com/embed/4P3T5?data[rnddiv]=14920182194950616&data[responsive]=yes"></script></div>
+	</div>
+	<br><br>
 </center>
 
 
@@ -104,9 +104,10 @@ Reboot your computer and Linux Mint should now boot from the live USB.
 <center>
 	<b>Please Watch video</b>
 	<br>
-	<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/how-to-create-dvd-or-usb-drive-bootable/How to Install Linux Mint 18 Cinnamon on VirtualBox Step by Step HDCC-22.mp4">
-		Video Tag Not Support
-	</video>
+	<div class="video">
+		<div id="14920181237054999"><script type="text/JavaScript" src="https://www.aparat.com/embed/QPf05?data[rnddiv]=14920181237054999&data[responsive]=yes"></script></div>
+	</div>
+	<br><br>
 
 </center>
 

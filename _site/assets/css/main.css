@@ -444,7 +444,8 @@ a.slideButton,
 }
 
 #close {
-    display: none
+    display: none;
+    z-index: 22;
 }
 
 aside {
@@ -1070,6 +1071,7 @@ body {
         position: fixed;
         background: #402075;
         right: 0.5%;
+        z-index: 22;
     }
 }
 
@@ -1311,7 +1313,6 @@ body {
 .post-content ol,
 .post-content .tags,
 .post-content iframe {
-    max-width: 50rem;
     padding: 0 1.25rem;
     margin: 0 auto 1.875rem;
     font-family: 'Open Sans', sans-serif;
@@ -2785,7 +2786,9 @@ hr {
   border-width: 0 0 1px 0;
   border-radius: 15px;
 }
+.video{
 
+}
 /* Wave */
 .wave {
   width: 35%;
