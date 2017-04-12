@@ -113,7 +113,7 @@ Each of the above directory (which is a file, at the first place) contains impor
 → <strong>/var/log/messages</strong> : log of messages produced by <em>syslog</em> daemon at boot.<br>
 → <strong>/var/log/wtmp</strong> : list login <em>time</em> and <em>duration</em> of each user on the system currently.<br>
 
-<img src="{{ "/assets/img/linux-structure/Linux-file-system-hierarchy-v2.0-2480px-blackMORE-Ops.png"}}" alt="">
+<img src="{{ site.url }}/assets/img/linux-structure/Linux-file-system-hierarchy-v2.0-2480px-blackMORE-Ops.png" alt="">
 
 {% include content_option.html %}
 
