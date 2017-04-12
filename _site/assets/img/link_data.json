@@ -1,0 +1,19 @@
+var data = [  
+   {  
+      "id":"1",
+      "link_name":"sito.ir",
+      "link_discription":"\
+      very nice site\
+      ",
+   },
+   {  
+      "id":"2",
+      "link_name":"fedorafans.ir",
+      "link_discription":"\
+      very nice site\
+      ",
+      
+   }
+
+];
+

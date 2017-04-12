@@ -1,0 +1,99 @@
+[
+  
+    {
+      "title"    : "Linux Command Part 2",
+      "category" : "LinuxLinux Command",
+      "tags"     : "linux, what is linux, linux command, and important linux command",
+      "url"      : "/linux-command-part-2/",
+      "date"     : "15 Mar 2017"
+    } ,
+  
+    {
+      "title"    : "Linux Command Part 1",
+      "category" : "LinuxLinux Command",
+      "tags"     : "linux, what is linux, linux command, and important linux command",
+      "url"      : "/linux-command-part-1/",
+      "date"     : "15 Mar 2017"
+    } ,
+  
+    {
+      "title"    : "Linux Structure Part 2",
+      "category" : "LinuxLinux Structure",
+      "tags"     : "linux, what is linux, linux structure, linux file system, and Kernel",
+      "url"      : "/linux-structure-part-2/",
+      "date"     : "15 Mar 2017"
+    } ,
+  
+    {
+      "title"    : "Linux Structure Part 1",
+      "category" : "LinuxLinux Structure",
+      "tags"     : "linux, what is linux, linux structure, linux file system, and Kernel",
+      "url"      : "/linux-structure-part-1/",
+      "date"     : "15 Mar 2017"
+    } ,
+  
+    {
+      "title"    : "How to install a linux distro",
+      "category" : "Linux",
+      "tags"     : "linux, How to, How to install a linux distibute, and what is linux",
+      "url"      : "/how-to-install-a-linux-distro/",
+      "date"     : "15 Mar 2017"
+    } ,
+  
+    {
+      "title"    : "How to create usb drive or dvd bootable",
+      "category" : "Linux",
+      "tags"     : "linux, how to, how to install linux, bootable, dvd-or-usb-drive, and install-linux",
+      "url"      : "/how-to-create-dvd-or-usb-drive-bootable/",
+      "date"     : "15 Mar 2017"
+    } ,
+  
+    {
+      "title"    : "How to learn work with linux",
+      "category" : "Linux",
+      "tags"     : "how to, learn, and linux",
+      "url"      : "/how-to-work-with-linux/",
+      "date"     : "15 Mar 2017"
+    } ,
+  
+    {
+      "title"    : "How to give linux certificate",
+      "category" : "LinuxLinux Certificate",
+      "tags"     : "how to, linux certificate, and linux",
+      "url"      : "/how-to-give-linux-certificate/",
+      "date"     : "15 Mar 2017"
+    } ,
+  
+    {
+      "title"    : "All type linux",
+      "category" : "Linux",
+      "tags"     : "how to, learn, and linux",
+      "url"      : "/All-type-linux/",
+      "date"     : "15 Mar 2017"
+    } ,
+  
+    {
+      "title"    : "What is Linux",
+      "category" : "Linux",
+      "tags"     : "linux, what is linux, unix, minix, linus torvalds, and richard stallman",
+      "url"      : "/what-is-linux/",
+      "date"     : "15 Mar 2017"
+    } ,
+  
+    {
+      "title"    : "Linuxsh Review",
+      "category" : "dist_rev",
+      "tags"     : "",
+      "url"      : "/linuxsh-review/",
+      "date"     : "06 Apr 2016"
+    } ,
+  
+    {
+      "title"    : "How to create build-your-own-linux-distro",
+      "category" : "dist_rev",
+      "tags"     : "",
+      "url"      : "/linux-remaster/",
+      "date"     : "06 Apr 2016"
+    } 
+  
+]

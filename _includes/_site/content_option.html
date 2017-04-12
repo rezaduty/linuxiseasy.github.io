@@ -1,0 +1,58 @@
+<script type="text/javascript">
+	var level= 100;
+</script>
+<div class='menu'>
+  <div class='menu-ico'>
+    <div class='icon'>
+      <i class="fa fa-cog fa-lg"></i>
+    </div>
+  </div>
+  <ul>
+    <li>
+      <a class='bg2' onclick="zoomup();" href='#'>
+        <div class='overlay'></div>
+        <div class='icon'>
+          <i class="fa fa-search-plus fa-lg"></i>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a class='bg3' onclick="zoomdown();" href='#'>
+        <div class='overlay h'></div>
+        <div class='icon'>
+          <i class="fa fa-search-minus fa-lg"></i>
+        </div>
+      </a>
+    </li>
+    <!--
+    <li>
+      <a class='bg4' href='#'>
+        <div class='overlay h'></div>
+        <div class='icon'>
+          <i class='ion-gear-b'></i>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a class='bg1' href='#'>
+        <div class='overlay'></div>
+        <div class='icon'>
+          <i class='ion-plus'></i>
+        </div>
+      </a>
+    </li>
+    -->
+  </ul>
+</div>
+
+<script type="text/javascript">
+	function zoomup(){
+		level = level+1;
+		document.getElementsByTagName("body")[0].style.zoom = level+"%";
+
+	}
+	function zoomdown(){
+		level = level-1;
+		document.getElementsByTagName("body")[0].style.zoom = level+"%";
+	}
+</script>

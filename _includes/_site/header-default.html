@@ -1,0 +1,99 @@
+<header class="header-site" role="banner">
+    <div class="content">
+
+        <div class="person">
+            <img alt="My photo" src="/assets/img/static/Tux.svg.png">
+        </div>
+
+        <h1>
+            <span class="site-title">[{{site.username}}]</span>
+        </h1>
+
+        <div class="icons-home">
+            <a aria-label="Debian" title="Debian Linux" href="https://distrowatch.com/debian">
+                <svg class="icon icon-debian"><use xlink:href="#icon-debian"></use></svg>
+            </a>
+            <a aria-label="OpenSuse" title="OpenSuse Linux" href="https://distrowatch.com/opensuse">
+                <svg class="icon icon-opensuse"><use xlink:href="#icon-opensuse"></use></svg>
+            </a>
+            
+            <a aria-label="Minix" title="Minix Linux" href=" http://distrowatch.com/minix">
+                <svg class="icon icon-minix"><use xlink:href="#icon-minix"></use></svg>
+            </a>
+           
+            <a aria-label="Centos" title="Centos Linux" href="http://distrowatch.com/centos">
+                <svg class="icon icon-centos"><use xlink:href="#icon-centos"></use></svg>
+            </a>
+            <a aria-label="Elementry" title="Elementry Linux" href="http://distrowatch.com/elementary">
+                <svg class="icon icon-elementry"><use xlink:href="#icon-elementry"></use></svg>
+            </a>
+            
+            <a aria-label="Ubuntu" title="Ubuntu Linux" href="http://distrowatch.com/ubuntu">
+                <svg class="icon icon-ubuntu"><use xlink:href="#icon-ubuntu"></use></svg>
+            </a>
+            
+            <a aria-label="Lfs" title="Lfs Linux" href="http://distrowatch.com/lfs">
+                <svg class="icon icon-lfs"><use xlink:href="#icon-lfs"></use></svg>
+            </a>
+            <a aria-label="Fedora" title="Fedora Linux" href="http://distrowatch.com/fedora">
+                <svg class="icon icon-fedora"><use xlink:href="#icon-fedora"></use></svg>
+            </a>
+            
+            <a aria-label="Gentoo" title="Gentoo Linux" href="http://distrowatch.com/gentoo">
+                <svg class="icon icon-gentoo"><use xlink:href="#icon-gentoo"></use></svg>
+            </a>
+            <a aria-label="Slackware" title="Slackware Linux" href="http://distrowatch.com/slackware">
+                <svg class="icon icon-slackware"><use xlink:href="#icon-slackware"></use></svg>
+            </a>
+            
+            <a aria-label="Redhat" title="Redhat Linux" href="http://distrowatch.com/redhat">
+                <svg class="icon icon-redhat"><use xlink:href="#icon-redhat"></use></svg>
+            </a>
+
+            <a aria-label="Arch" title="Arch Linux" target="_blank" href="http://distrowatch.com/arch">
+                <svg class="icon icon-arch"><use xlink:href="#icon-arch"></use></svg>
+            </a>
+
+            <a aria-label="Freebsd" title="Freebsd Linux" target="_blank" href="http://distrowatch.com/freebsd">
+                <svg class="icon icon-freebsd"><use xlink:href="#icon-freebsd"></use></svg>
+            </a>
+
+            <a aria-label="My Google Plus" title="Show my feed" target="_blank" href="https://plus.google.com/u/0/+{{site.gplus_username}}/posts">
+                <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
+            </a>
+
+            <a aria-label="My Github" title="Show my projetcts" target="_blank" href="https://github.com/{{site.github_username}}">
+                <svg class="icon icon-github-alt"><use xlink:href="#icon-github-alt"></use></svg>
+            </a>
+
+            <a aria-label="Use the RSS to get updated" title="Register for my RSS" target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                <svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg>
+            </a>
+        </div>
+
+        <ul class="recent">
+            <p>Recent posts:</p>
+            {% assign postss = (site.posts | sort: 'date') | reverse%}
+             {% for post in postss %}
+                <li>
+                    <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
+                        <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+                    </a>
+                </li>
+              {% endfor %}
+        </ul>
+
+        <ul class="recent">
+            <p>Recent projects:</p>
+             {% for project in site.projects limit:3%}
+                <li>
+                    <a title="Show my recent project" href="{{ project.url}}">
+                        <h2 class="post-title" itemprop="name">{{ project.name }}</h2>
+                    </a>
+                </li>
+              {% endfor %}
+        </ul>
+
+    </div>
+    {% include menu-search.html %}
+</header>

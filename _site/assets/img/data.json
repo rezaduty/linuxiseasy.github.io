@@ -1,0 +1,63 @@
+var data = [  
+   {  
+      "id":"1",
+      "command_name":"apt-get",
+      "command_discription":"\
+      Apt-get is a tool to automatically update a Debian machine and to get and install Debian packages/programs.\
+      Hot to manage software on an Ubuntu Server with <b>aptitude</b> and <b>apt-get.</b>\
+      Understanding the Debian archives and apt-get.\
+      Inside the Red Hat and Debian package management differences.\
+      ",
+      "command_example":"\
+        <b>For example:</b><br>\
+        <em>Update Repository</em><br>\
+        <strong>apt-get update</strong><br>\
+        <em>Install package</em><br>\
+        <strong>apt-get install vim</strong><br>\
+        <em>Remove package</em><br>\
+        <strong>apt-get purge vim</strong><br>\
+      ",
+   },
+   {  
+      "id":"2",
+      "command_name":"alias",
+      "command_discription":"\
+      A way to run a command or a series of Unix commands using a shorter name than those that are usually associated with such commands.\
+      How to use the alias command in Linux.\
+      ",
+      "command_example":"\
+      <b>For example:</b><br>\
+      <em>alias md</em><br>\
+      <strong>md='mkdir -p'</strong><br>\
+      ",
+   },
+   {  
+      "id":"3",
+      "command_name":"cat",
+      "command_discription":"\
+      A Unix/Linux command that can read, modify or concatenate text files. Cat commands are most commonly used for displaying the contents of a file.\
+      See how to use cat to display the contents of a file in Linux.\
+      An article on what you can do with the cat command.\
+      ",
+      "command_example":"\
+      <b>For example:</b><br>\
+      <em>Print a.txt content:</em><br>\
+              <strong>cat a.txt</strong><br>\
+      ",
+   },
+   {  
+      "id":"4",
+      "command_name":"cd",
+      "command_discription":"\
+      The cd command changes the current directory in Linux and can toggle between directories conveniently. Cd is similar to the CD and CHDIR commands in MS-DOS.\
+      See more on how to use the cd command to change directories.\
+      ",
+      "command_example":"\
+      <b>For example:</b><br>\
+      <em>Change to the home directory of the user fred:</em><br>\
+              <strong>cd ~fred</strong><br>\
+      ",
+   }
+
+];
+

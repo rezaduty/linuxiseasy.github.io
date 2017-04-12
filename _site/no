@@ -1,0 +1,23 @@
+jekyll s
+
+
+<main role="main" class="content">
+                {{ content }}
+            </main> default.html
+
+
+sudo mkisofs -o /new.iso -b isolinux/isolinux.bin  -c isolinux/boot.cat -no-emul-boot -boot-load-size 4  -boot-info-table -J -R -V disks .
+
+cubic
+
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background: transparent;
+    z-index: 30;
+}
