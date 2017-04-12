@@ -7,7 +7,7 @@ very special thanks Victor Igor
 A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
 
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
-[![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 
 See a live demo [here](https://rezaduty.github.io/linuxsh).
 
