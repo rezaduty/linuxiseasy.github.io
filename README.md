@@ -1,4 +1,4 @@
-# This Project bases on Space-jekyll
+# This Project bases on Space-jekyll-theme
 
 very special thanks Victor Igor
 
@@ -12,7 +12,8 @@ A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mo
 See a live demo [here](https://rezaduty.github.io/linuxsh).
 
 ![](https://www.dropbox.com/s/31it9ov78xnda7u/https%20%20%20rezaduty.github.io%20linuxsh%20.png?dl=1)
-
+# Installation jeyll
+	✓ (https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jekyll-development-site-on-ubuntu-16-04) 
 # Site/User Settings
 
 customize your site in ``_config.yml``
