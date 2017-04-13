@@ -254,9 +254,10 @@ categories:
 <center>
 		<b>Please Watch video</b>
 		<br>
-		<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/linux-terminal/Linux-Sysadmin-Basics-User-Account-Management-43.mp4">
-			Video Tag Not Support
-		</video>
+		<div class="video">
+			<div id="14920545979830099"><script type="text/JavaScript" src="https://www.aparat.com/embed/uWlMz?data[rnddiv]=14920545979830099&data[responsive]=yes"></script></div>
+		</div>
+		<br><br>
 
 </center>
 
