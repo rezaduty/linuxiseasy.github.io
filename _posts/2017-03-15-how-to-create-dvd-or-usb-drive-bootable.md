@@ -92,9 +92,10 @@ Reboot your computer and Linux Mint should now boot from the live USB.
 <center>
 	<b>Please Watch video</b>
 	<br>
-	<video onclick="this.paused ? this.play() : this.pause();" controls width="50%" poster="../assets/img/static/videoposter.jpg" height="50%" src="../assets/img/how-to-create-dvd-or-usb-drive-bootable/How to create bootable OS DVD  Linuxmint OS -22.mp4">
-		Video Tag Not Support
-	</video>
+	<div class="video">
+		<div id="14920552826080304"><script type="text/JavaScript" src="https://www.aparat.com/embed/FODgU?data[rnddiv]=14920552826080304&data[responsive]=yes"></script></div>
+	</div>
+	<br><br>
 
 </center>
 
