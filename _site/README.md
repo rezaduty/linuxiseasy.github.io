@@ -1,4 +1,4 @@
-# This Project bases on Space-jekyll
+# This Project bases on Space-jekyll-theme
 
 very special thanks Victor Igor
 
@@ -7,12 +7,14 @@ very special thanks Victor Igor
 A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
 
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
-[![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
+[![Jekyll](https://img.shields.io/badge/Powered-jekyll-brightgreen.svg)](https://jekyllrb.com/)
 
 See a live demo [here](https://rezaduty.github.io/linuxsh).
 
 ![](https://www.dropbox.com/s/31it9ov78xnda7u/https%20%20%20rezaduty.github.io%20linuxsh%20.png?dl=1)
-
+# Installation jekyll
+	✓ (https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jekyll-development-site-on-ubuntu-16-04) 
 # Site/User Settings
 
 customize your site in ``_config.yml``
