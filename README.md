@@ -1,10 +1,11 @@
 # This Project bases on Space-jekyll-theme
 
 very special thanks :arrow_right: Victor Igor :arrow_left:
+A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
 
 # Linuxsh
 
-:white_check_mark: A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
+:white_check_mark: Linux document and remaster linux for everyone
 
 [![Travis branch](https://img.shields.io/travis/rust-lang/rust/master.svg)]()
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
