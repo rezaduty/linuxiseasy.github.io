@@ -1,6 +1,6 @@
 <div class="tree-posts">
 
-<pre><center>
+<pre style="overflow:hidden;"><center>
    _                         _     
   / /(_)_ __  _   ___  _____| |__  
  / / | | '_ \| | | \ \/ / __| '_ \ 
@@ -9,6 +9,7 @@
                                    
 </center></pre>
 {% assign postss = (site.posts | sort: 'date') | reverse %}
+
 
  
  <!--
@@ -19,14 +20,57 @@
     </ul>
 -->
     
-    <ul class="four">
+    
 
 
-        {% for post in postss %}
+<!-- CSS tree menu -->
+<ol class="tree">
+  
+        <li>
+            <label class="underline" for="folder1">Review</label> <input type="checkbox" id="folder1" /> 
+            <ol>
+                <li>
+                    <label for="subfolder1">Review List</label> <input type="checkbox" id="subfolder1" /> 
+                    <ol class="four">
+                        {% for post in site.categories["dist_rev"] %}
+                           <li><a class="tree-post" href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></li>
+                        {% endfor %}
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        
 
-            <li><a class="tree-post" href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></li>
-        {% endfor %}
 
-    </ul>
+        <li>
+            <label class="underline" for="folder2">Beginning</label> <input type="checkbox" id="folder2" /> 
+            <ol>
+                <li>
+                    <label for="subfolder2">Tutorials</label> <input type="checkbox" id="subfolder2" /> 
+                    <ol class="four">
 
+                                        {% for post in postss %}
+                                            {% if post.categories contains 'dist_rev' %}
+                                            {% else %}
+                                                <li><a class="tree-post" href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></li>
+                                            {% endif %}
+                                        {% endfor %}
+
+                   </ol>
+                </li>
+            </ol>
+        </li>
+
+
+        <li>
+            <label class="underline" for="folder3">Projects</label> <input type="checkbox" id="folder3" /> 
+            <ol class="four">
+                <li><a class="tree-post" href="{{ site.url }}/linuxsh/ls">LPS</a></li>
+                <li><a class="tree-post" href="{{ site.url }}/linuxsh/cs">CPS</a></li>
+                <li><a class="tree-post" href="{{ site.url }}/linuxsh/lugmap">LUG</a></li>
+            </ol>
+        </li>
+        
+        
+    </ol>
 </div>

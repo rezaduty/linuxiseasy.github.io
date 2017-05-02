@@ -1,6 +1,6 @@
 ---
 layout: post
-category: dist_rev
+category: Linux
 title: 'How to create build-your-own-linux-distro'
 date: 2016-04-06 21:35
 ---

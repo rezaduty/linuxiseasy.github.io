@@ -1,4 +1,10 @@
 @import url('https://fonts.google.com/specimen/Dosis?selection.family=Dosis:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Limelight');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:800');
+@import url('https://fonts.googleapis.com/css?family=Teko:700');
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -2529,6 +2535,59 @@ em{
 
 
 
+
+
+
+
+/* left menu cliclable */
+
+
+.clearfix:after {content:"."; display:block; clear:both; font-size:0; height:0; visibility:hidden; }
+svg {height:48px; width:48px;}
+
+
+
+/* CSS tree menu styles */
+ol.tree{padding:0 0 0 12px; width:auto;}
+
+li{position:relative; margin-left:-12px; list-style:none;}
+li.file{margin-left:-13px !important;}
+li.file a{background:url(document.png) 0 0 no-repeat; color:#fff; text-decoration:none; display:block; padding-left:12px; line-height:48px;}
+
+li.file a[href *= '.pdf']   { background: url(document.png) 0 0 no-repeat; }
+li.file a[href *= '.html']  { background: url(document.png) 0 0 no-repeat; }
+li.file a[href $= '.css']   { background: url(document.png) 0 0 no-repeat; }
+li.file a[href $= '.js']        { background: url(document.png) 0 0 no-repeat; }
+
+li input{position:absolute; right:0; margin-left:0; opacity:0; z-index:2; cursor:pointer; height:48px; width:48px; top:0;}
+li input + ol{
+            /* background: url(toggle-small-expand.png) 40px 0 no-repeat; */
+margin:0 0 0 -12px; height:0;}
+li input + ol > li {display:none; margin-left:-13px !important; padding-left:0px;}
+li label{background:transparent none no-repeat 0 0; cursor:pointer; display:block; padding-left:12px; line-height:48px; color: #fff;}
+
+li input:checked + ol{
+    background-color:rgba(255, 255, 255, 0.08);
+        /* background: url(toggle-small.png) 40px 5px no-repeat; */
+margin:0 0 0 -12px; padding:0 0 0 36px; height: auto;}
+li input:checked + ol > li {display: block; margin:0; background-color:#170a2d;}
+li input:checked + ol > li:last-child {margin:0; /* 1px */ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @font-face {
         font-family: 'Iceland';
         font-style: normal;
@@ -2594,6 +2653,7 @@ to {}
 
 .tree-post{
     color: #ADEBFF;
+    text-shadow: 0px 0px 17px;
     padding-left: 10px;
     text-decoration: blink;
     font-weight: bold;
@@ -2876,5 +2936,46 @@ hr {
   content: "★";
   font-size: 2em;
   text-shadow: -2em 0, -1em 0, 1em 0, 2em 0;
+}
+
+
+
+
+
+
+/* menu typography */
+
+/* Underline Text Shadow */
+.underline {
+  font-family: 'Catamaran', sans-serif;
+  margin: 0;
+  position: relative;
+}
+.underline:after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: .35em;
+  width: 120%;
+  margin-left: -60%;
+  left: 50%;
+  bottom: -.35em;
+  border-radius: 50%;
+  z-index: -1;
+  background: black;
+}
+.underline:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: .3em;
+  width: 110%;
+  margin-left: -55%;
+  left: 50%;
+  bottom: -.22em;
+  border-radius: 50%;
+  z-index: -2;
+  background: white;
+  background: linear-gradient(to right, white 25%,white 100%);
 }
 
