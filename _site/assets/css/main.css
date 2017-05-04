@@ -1129,7 +1129,7 @@ body {
     position: fixed;
     background-color: rgb(23, 10, 45);
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-y: hidden;
     top: 0;
 }
 
