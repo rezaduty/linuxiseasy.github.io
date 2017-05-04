@@ -8,6 +8,10 @@ _dev: "https://mega.nz/#!c7ImET7b!m24EZu-npO60SomMzX3avI5YlFSdPqu5DBBRXlsjlX4"
 _base: "https://mega.nz/#!0iZ0kT5K!7nHI-RVuXXfFwaeoeppwjCz_AD2BJ2zwZloNiD6xsUM"
 # source
 _source: https://github.com/rezaduty/linuxsh
+
+# top subject
+top_subject:  this simple linux and learning group :dizzy:!
+
 # User settings
 username: Linux
 user_title: Linux Docs
@@ -22,7 +26,8 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 
-
+gems:
+  - jemoji
 
 
 # html minify
