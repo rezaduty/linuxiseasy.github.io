@@ -1,0 +1,39 @@
+{
+                "type": "FeatureCollection",
+                "features": [{
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Tehran lug</strong><p><a href=\"http:\\\\tehlug.org\" target=\"_blank\" title=\"Opens in a new window\">Tehlug</a>Tehran Linux Users Group</p>",
+                        "icon": "star"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [51.3890, 35.6892]
+                    }
+                },{
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Truckeroo</strong><p><a href=\"http://www.truckeroodc.com/www/\" target=\"_blank\">Truckeroo</a> brings dozens of food trucks, live music, and games to half and M Street SE (across from Navy Yard Metro Station) today from 11:00 a.m. to 11:00 p.m.</p>",
+                        "icon": "star"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [50.8759, 34.6399]
+                    }
+                },{
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Moscow Linux Group</strong><p><a href=\"http://www.moscow.lug.ru/\" target=\"_blank\">moscow.lug</a> Our group was established in 1998, the year in order to unite the Moscow Linux operating system users.</p>",
+                        "icon": "star"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [37.6173,55.7558]
+                    }
+                }
+
+
+
+
+                ]
+}

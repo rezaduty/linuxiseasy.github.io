@@ -4,10 +4,10 @@ description: "A document about linux works and create customize linux ..."
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
 url: "https://rezaduty.github.io/linuxsh" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # Linuxsh iso location
-_dev: "dv1-4.iso"
-_base: "v4-1.iso"
+_dev: "https://mega.nz/#!c7ImET7b!m24EZu-npO60SomMzX3avI5YlFSdPqu5DBBRXlsjlX4"
+_base: "https://mega.nz/#!0iZ0kT5K!7nHI-RVuXXfFwaeoeppwjCz_AD2BJ2zwZloNiD6xsUM"
 # source
-_source: http://gitlab.com
+_source: https://github.com/rezaduty/linuxsh
 # User settings
 username: Linux
 user_title: Linux Docs
@@ -56,7 +56,7 @@ projects:
     url: /linuxsh/cs
   - name: Link Planet Search
     url: /linuxsh/ls
-  - name: Lug Map
-    url: /linuxsh/lugmap
+  - name: Linux Map
+    url: /linuxsh/linuxmap
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
