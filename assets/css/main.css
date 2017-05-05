@@ -1,4 +1,7 @@
 @import url('https://fonts.google.com/specimen/Dosis?selection.family=Dosis:400,700');
+@import url(//fonts.googleapis.com/css?family=Vibur);
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Coiny');
+
 @import url('https://fonts.googleapis.com/css?family=Limelight');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @import url('https://fonts.googleapis.com/css?family=Anton');
@@ -1127,8 +1130,9 @@ body {
     background: no-repeat;
     height: 100%;
     position: fixed;
+    overflow: hidden;
     background-color: rgb(23, 10, 45);
-    overflow-y: hidden;
+    overflow-y: auto;
     top: 0;
 }
 
@@ -3215,14 +3219,33 @@ hr {
 /* header ribbon*/
 
  .ribbon-wrapper {
-    position: relative;z-index:998;box-shadow: -6px 1px 9px #5f00ff;
+    position: relative;z-index:998;
+}
+/* Smartphones (portrait and landscape) ----------- */
+
+@media all and (max-width: 699px) and (min-width: 300px){
+   .ribbon-wrapper {
+     margin-left:-24%;
+  }
+  .ribbon-front, .ribbon-back-left, .ribbon-back-right{
+      font-size: 17px;
+  }
+  .post h1{
+
+  }
+
+  article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{
+    color: aliceblue;
+  }
 }
   .ribbon-front {
     background-color:#170a2d;  height: 50px;
     width: 240px;
     position: relative;
     left:-10px;
-    z-index: 2; font:20px/50px bold Verdana, Geneva, sans-serif; color:#ffffff; text-align:center;text-shadow: 0px 1px 2px #000000;
+    z-index: 2; color:#ffffff; text-align:center;text-shadow: 1px -1px 10px #ffffff;
+    font-family: 'Bungee Inline', cursive;
+
 }
 
   .ribbon-front,
@@ -3273,7 +3296,7 @@ hr {
   .ribbon-edge-topright,
   .ribbon-edge-bottomright {
     left: 220px;
-    border-color: transparent transparent transparent #ffffff;
+    border-color: transparent transparent transparent;
 }
 
   .ribbon-edge-topright {
@@ -3333,3 +3356,63 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   -webkit-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
   box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
 }
+
+
+
+
+
+.logo {
+  text-align: center;
+  width: 65%;
+  height: 250px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 8%;
+}
+
+.logo b{
+  font: 100 5vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #170a2d, 0 0 0.5em #170a2d, 0 0 0.1em #510aca, 0 10px 3px #000;
+}
+.logo b span{
+  animation: blink linear infinite 2s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+
+
+
