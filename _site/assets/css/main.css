@@ -3239,8 +3239,8 @@ hr {
   }
 }
   .ribbon-front {
-    background-color:#170a2d;  height: 50px;
-    width: 240px;
+    /*background-color:#170a2d;  height: 50px;
+    width: 240px;*/
     position: relative;
     left:-10px;
     z-index: 2; color:#ffffff; text-align:center;text-shadow: 1px -1px 10px #ffffff;
