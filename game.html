@@ -231,6 +231,75 @@ function loose() {
 		opacity: 0
 	});
 }
+
+
+
+function readTextFile(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+               return allText;
+            }
+        }
+    }
+    rawFile.send(null);
+    return rawFile.responseText;
+}
+
+
+
+
+var caesarShift = function(str, amount) {
+
+	// Wrap the amount
+	if (amount < 0)
+		return caesarShift(str, amount + 26);
+
+	// Make an output variable
+	var output = '';
+
+	// Go through each character
+	for (var i = 0; i < str.length; i ++) {
+
+		// Get the character we'll be appending
+		var c = str[i];
+
+		// If it's a letter...
+		if (c.match(/[a-z]/i)) {
+
+			// Get its code
+			var code = str.charCodeAt(i);
+
+			// Uppercase letters
+			if ((code >= 65) && (code <= 90))
+				c = String.fromCharCode(((code - 65 + amount) % 26) + 65);
+
+			// Lowercase letters
+			else if ((code >= 97) && (code <= 122))
+				c = String.fromCharCode(((code - 97 + amount) % 26) + 97);
+
+		}
+
+		// Append
+		output += c;
+
+	}
+
+	// All done!
+	return output;
+
+};
+
+
+
+
 i=1;
 function hitTest(tween) {
 	// check for collisions with arrow and target
@@ -256,13 +325,21 @@ function hitTest(tween) {
 		if (distance < 7) {
 			selector = ".bullseye"
 			var x = readCookie('funnygame')
-			alert("this level has done "+x);
+			//alert("this level has done "+x);
 			if (x == 3) {
-			   	alert("shutdown -h now");
+
+				var re = readTextFile("top_information.txt");
+				var ce = caesarShift(re,-13)
+				
+
+
+
+				alert(ce);
+				// document.getElementById('download').click();
 			}
 			else{
 				i=i+1;
-				alert("Heeeyy You are give +1 point; Finished!!!");
+				//alert("Heeeyy You are give +1 point; Finished!!!");
 				createCookie('funnygame',i,7);
 			}
 			
@@ -360,6 +437,7 @@ function eraseCookie(name) {
 }
 </script>
 
+<a href="top_information.txt" download  id="download" hidden>Download</a>
 
 </body>
 </html>

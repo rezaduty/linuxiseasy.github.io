@@ -3,6 +3,9 @@ title: Linux Docs - rezaduty
 description: "A document about linux works and create customize linux ..."
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
 url: "https://rezaduty.github.io/linuxsh" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+#social url
+slack_url: "https://linuxsh.slack.com/"
+git_url: "https://github.com/rezaduty/linuxsh/"
 # Linuxsh iso location
 _dev: "https://mega.nz/#!c7ImET7b!m24EZu-npO60SomMzX3avI5YlFSdPqu5DBBRXlsjlX4"
 _base: "https://mega.nz/#!0iZ0kT5K!7nHI-RVuXXfFwaeoeppwjCz_AD2BJ2zwZloNiD6xsUM"
@@ -11,6 +14,12 @@ _source: https://github.com/rezaduty/linuxsh
 
 # top subject
 top_subject:   :dizzy:Welcome Linuxsh
+
+#game section
+# game top informatio
+top_information: shut
+
+
 
 # User settings
 username: Linux
@@ -25,6 +34,7 @@ disqus_username: rezaduty
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
+
 
 gems:
   - jemoji
@@ -65,3 +75,5 @@ projects:
     url: /linuxsh/linuxmap
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
+
+

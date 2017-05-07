@@ -1,7 +1,8 @@
 @import url('https://fonts.google.com/specimen/Dosis?selection.family=Dosis:400,700');
 @import url(//fonts.googleapis.com/css?family=Vibur);
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Coiny');
-
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+    
 @import url('https://fonts.googleapis.com/css?family=Limelight');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @import url('https://fonts.googleapis.com/css?family=Anton');
@@ -129,7 +130,7 @@ kbd,
 pre,
 samp {
     font-family: monospace, monospace;
-    font-size: 1em
+    font-size: 2em
 }
 
 button,
@@ -438,6 +439,7 @@ a.slideButton,
     border-radius: .188rem;
     background: #54456e;
     width: 2.5rem;
+    top: 8%;
     height: 2.5rem;
     fill: #fff
 }
@@ -3372,7 +3374,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 }
 
 .logo b{
-  font: 100 5vh "Vibur";
+  font: 100 5vh 'Ubuntu', sans-serif;
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #170a2d, 0 0 0.5em #170a2d, 0 0 0.1em #510aca, 0 10px 3px #000;
 }
