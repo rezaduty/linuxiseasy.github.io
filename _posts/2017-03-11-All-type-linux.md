@@ -12,13 +12,13 @@ categories:
 - Linux  
 ---
 
-<img src="{{ site.url }}/assets/img/all-type-linux/choose-linux-package-670x335.jpg ">
+<img src="{{ site.url }}/assets/img/all-type-linux/choose-linux-package-670x335.jpg">
 
 
 <p>linux distribute very big branch</p>
 Please watch image 
 
-<img src="{{ site.url }}/assets/img/all-type-linux/Linux_Distribution_Timeline.svg ">
+<img src="{{ site.url }}/assets/img/all-type-linux/Linux_Distribution_Timeline.svg">
 
 
 <b> !!!! </b>

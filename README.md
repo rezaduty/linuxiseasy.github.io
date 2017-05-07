@@ -46,7 +46,13 @@ See a live demo [here](https://rezaduty.github.io/linuxsh).
 
 - [x] Link Planet Search
 
-- [x] Lug Map
+- [x] Linux Map 
+
+## for complete linux group please goto :pray:
+
+```md
+public_assets/data/linuxmap.geojson
+```
 
 # :sparkles: Installation jekyll
 	✓ (https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jekyll-development-site-on-ubuntu-16-04) 
