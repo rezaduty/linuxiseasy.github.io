@@ -14,9 +14,9 @@ A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mo
 See a live demo [here](https://rezaduty.github.io/linuxsh).
 
 ![](https://www.dropbox.com/s/31it9ov78xnda7u/https%20%20%20rezaduty.github.io%20linuxsh%20.png?dl=1)
-![](https://www.dropbox.com/s/9ivr7f140ajlfeb/Linux%20Command%20Part%201.png?dl=1)
+![](https://www.dropbox.com/s/lyve6ldfuzhtctn/linuxpost.png?dl=1)
 ![](https://www.dropbox.com/s/8zw4yrlvcl7sg31/Command%20Line%20Search.png?dl=1)
-![](https://www.dropbox.com/s/lth7czfkdcdenk4/Lug%20Map%20list.png?dl=1)
+![](https://www.dropbox.com/s/czfvnzjn28nl47p/linuxmap.png?dl=1)
 
 
 
