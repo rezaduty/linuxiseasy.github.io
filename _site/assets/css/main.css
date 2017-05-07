@@ -3414,7 +3414,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     text-shadow: inherit;
   }
 }
+#mc_embed_signup form{
+    height: 100%;
+}
 
-
-
-
+#mc_embed_signup input.email{
+    margin: 20% 34% 5px 0px;
+}
+#mc_embed_signup input.button{
+    margin: 23% -25px -2px 0;
+}
+    #mc_embed_signup{height: 120px; clear:left; font:14px Helvetica,Arial,sans-serif;  width:250px;}
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
