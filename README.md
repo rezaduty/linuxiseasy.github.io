@@ -1,28 +1,14 @@
-<<<<<<< 1e095c1c0ef7da96e58de2e11a4d211bd33e358f
-# This Project bases on Space-jekyll-theme
-=======
 # This Project bases on Space-jekyll
 
 very special thanks Victor Igor
 
 # Linuxsh
->>>>>>> add screenshot of project
 
 very special thanks :arrow_right: Victor Igor :arrow_left:
 A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
 
-<<<<<<< 1e095c1c0ef7da96e58de2e11a4d211bd33e358f
-# Linuxsh
-
 :white_check_mark: Linux document and remaster linux for everyone
-=======
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
-[![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-See a live demo [here](https://rezaduty.github.io/linuxsh).
-
-![](https://www.dropbox.com/s/31it9ov78xnda7u/https%20%20%20rezaduty.github.io%20linuxsh%20.png?dl=1)
->>>>>>> add screenshot of project
 
 [![Travis branch](https://img.shields.io/travis/rust-lang/rust/master.svg)]()
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
