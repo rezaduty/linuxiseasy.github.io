@@ -1,7 +1,7 @@
 @import url('https://fonts.google.com/specimen/Dosis?selection.family=Dosis:400,700');
 @import url(//fonts.googleapis.com/css?family=Vibur);
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Coiny');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed');
     
 @import url('https://fonts.googleapis.com/css?family=Limelight');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
@@ -1365,7 +1365,7 @@ body {
 }
 
 .post-content a {
-    font-family: Iceland;
+    font-family: 'Ubuntu Condensed', sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #5d4d7a;
