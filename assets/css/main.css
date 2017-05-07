@@ -1365,7 +1365,7 @@ body {
 }
 
 .post-content a {
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #5d4d7a;
@@ -3374,7 +3374,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 }
 
 .logo b{
-  font: 100 5vh 'Ubuntu', sans-serif;
+  font: 100 5vh 'Ubuntu Condensed';
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #170a2d, 0 0 0.5em #170a2d, 0 0 0.1em #510aca, 0 10px 3px #000;
 }
