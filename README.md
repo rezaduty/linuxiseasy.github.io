@@ -15,7 +15,7 @@ See a live demo [here](https://rezaduty.github.io/linuxsh).
 
 ![](https://www.dropbox.com/s/31it9ov78xnda7u/https%20%20%20rezaduty.github.io%20linuxsh%20.png?dl=1)
 ![](https://www.dropbox.com/s/lyve6ldfuzhtctn/linuxpost.png?dl=1)
-![](https://www.dropbox.com/s/8zw4yrlvcl7sg31/Command%20Line%20Search.png?dl=1)
+![](https://www.dropbox.com/s/8zw4yrlvcl7sg31/Command%20Line%20Search.png?dl=11)
 ![](https://www.dropbox.com/s/czfvnzjn28nl47p/linuxmap.png?dl=1)
 
 
