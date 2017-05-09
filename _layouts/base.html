@@ -905,10 +905,10 @@ layout: compress
 								</a></p>
 								-->
 								<p><a href="{{site.baseurl}}/indexx">
-									Linux is easy (english)
+									Linux is easy 
 								</a></p>
 								<p><a href="soon.html">
-									Linux is easy (فارسی)
+									لینوکس آسان است
 								</a></p>
 								<p><a href="https://en.wikipedia.org/wiki/Blue">
 									In real open source, you have the right to control your own destiny.
@@ -996,6 +996,20 @@ layout: compress
 		</div>
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script type="text/javascript">
+
+$(document).ready(function(){
+	
+var height= document.body.clientHeight;
+var width= document.body.clientWidth;
+if(width<=1024){
+	location.href="index-mob.html"
+}
+
+
+});
+
+</script>
+		<script type="text/javascript">
 			$(document).ready(function() {
 		var curPage = 1;
 		var numOfPages = $(".skw-page").length;
@@ -1038,7 +1052,11 @@ layout: compress
 		}
 		});
 		});
+
+	
 		</script>
+
+
 		{% include scripts.html %}
 	</body>
 </html>
