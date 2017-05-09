@@ -295,8 +295,8 @@ h4 {
 
 .icons-home a .icon {
     fill: #fff;
-    width: 18px;
-    height: 18px;
+    width: 36px;
+    height: 30px;
 }
 
 @media only screen and (min-width:37.5rem) {
@@ -947,7 +947,7 @@ html{
 }
 body {
     height: 100%;
-    background: url("../img/static/back4.jpg") no-repeat  fixed;
+    background: url("../img/static/back4.png") no-repeat  fixed;
     background-size: cover;
 }
 
@@ -1015,6 +1015,7 @@ body {
 
 .header-site .recent p {
     text-align: left;
+    font-weight: bold;
     color: #fff
 }
 
@@ -1025,7 +1026,7 @@ body {
 .header-site .recent a h2 {
     text-align: left;
     margin: 0;
-    font-weight: 300;
+    font-weight: 310;
     font-size: 1.063rem;
     border-bottom: 1px solid #8774a9;
 }
