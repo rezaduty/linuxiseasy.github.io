@@ -1552,6 +1552,7 @@ body {
     margin: .938rem;
     width: 9%;
     height: 4%;
+    fill: white;
 }
 
 .share a {
@@ -1662,7 +1663,14 @@ pre {
         margin: 1.25rem 0
     }
 }
-
+.top_subject{
+    width:220px; 
+    height:250px;
+     top:1% ;
+     left:31%;
+    position: absolute;
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
+}
 pre code {
     *zoom: 1;
     width: auto;
@@ -3234,7 +3242,12 @@ hr {
       font-size: 17px;
   }
   .post h1{
-
+    }
+  .post-content h2{
+    color:black;
+  }
+  .top_subject{
+    top:-4%;
   }
 
   article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{
