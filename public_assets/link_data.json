@@ -2,6 +2,7 @@ var data = [
    {  
       "id":"1",
       "link_name":"sito.ir",
+      "resource":"https://google.com/",
       "link_discription":"\
       very nice site\
       ",
@@ -9,6 +10,7 @@ var data = [
    {  
       "id":"2",
       "link_name":"fedorafans.ir",
+      "resource":"https://google.com/",
       "link_discription":"\
       very nice site\
       ",

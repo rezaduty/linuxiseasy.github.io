@@ -1,6 +1,7 @@
 var data = [  
    {  
       "id":"1",
+      "resource":"https://google.com/",
       "command_name":"apt-get",
       "command_discription":"\
       Apt-get is a tool to automatically update a Debian machine and to get and install Debian packages/programs.\
@@ -20,6 +21,7 @@ var data = [
    },
    {  
       "id":"2",
+      "resource":"https://google.com/",
       "command_name":"alias",
       "command_discription":"\
       A way to run a command or a series of Unix commands using a shorter name than those that are usually associated with such commands.\
@@ -33,6 +35,7 @@ var data = [
    },
    {  
       "id":"3",
+      "resource":"https://google.com/",
       "command_name":"cat",
       "command_discription":"\
       A Unix/Linux command that can read, modify or concatenate text files. Cat commands are most commonly used for displaying the contents of a file.\
@@ -47,6 +50,7 @@ var data = [
    },
    {  
       "id":"4",
+      "resource":"https://google.com/",
       "command_name":"cd",
       "command_discription":"\
       The cd command changes the current directory in Linux and can toggle between directories conveniently. Cd is similar to the CD and CHDIR commands in MS-DOS.\

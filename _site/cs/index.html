@@ -652,7 +652,9 @@
  .css-input:focus {
      outline:none;
 }
-
+a{
+	color: #007eff;
+}
 	</style>
 <body>
 <div class="search-wrapper">
@@ -1702,7 +1704,7 @@
 		<div id="filter-records"></div>
 	  </div>
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="http://localhost:4000/assets/img/data.json"></script>
+	<script type="text/javascript" src="http://localhost:4000/public_assets/command_data.json"></script>
 
 	<script type="text/javascript">
 		
@@ -1714,7 +1716,7 @@
 				  $.each(data, function(key, val){
 					
 					  output += '<div class="col-md-6 well">';
-					  output += '<h3>' + val.command_name + '</h3>';
+					  output += '<h3><a target="_blank" href="'+ val.resource +'">' + val.command_name + '</a></h3>';
 					  output += '<p>' + val.command_discription + '<br><em>';
 			          output += val.command_example + '</em></p>';
 			          output += '<hr class="fade-2">';
@@ -1743,7 +1745,7 @@
 					if ((val.command_discription.search(regex) != -1) || (val.command_name.search(regex) != -1)) {
 					  output += '<div class="col-md-6 well">';
 					  output += '<div class="col-md-7">';
-					  output += '<h3>' + val.command_name + '</h3>';
+					  output += '<h3><a href="#">' + val.command_name + '</a></h3>';
 					  output += '<p>' + val.command_discription + '<br><em>';
 			          output += val.command_example + '</em></p>';
 			          output += '<hr class="fade-2">';
