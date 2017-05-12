@@ -8,11 +8,10 @@ tags:
 - learn
 - linux
 description: ''
-categories:
-- Linux  
+category: Linux
 ---
 
-<img src="{{ site.url }}/assets/img/how-to-work-with-linux/tux-segretario.png " alt="">
+<img src="{{ site.url }}/assets/img/how-to-work-with-linux/tux-segretario.png" alt="">
 
 ## Linux very easy for someone who knows
 

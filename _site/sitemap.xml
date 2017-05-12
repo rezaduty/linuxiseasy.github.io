@@ -42,7 +42,15 @@
 	  </url>
 	
 	  <url>
+		<loc>http://localhost:4000/install-kazam/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://localhost:4000/linuxsh-review/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/top-command/</loc>
 	  </url>
 	
 	  <url>

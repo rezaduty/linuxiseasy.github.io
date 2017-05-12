@@ -43,9 +43,9 @@ This remater with this tools
 → spyder<br>
 
 
-<img src="{{ site.url }}/assets/img/linuxsh-review/Desktop.png" alt="Linuxsh Desktop">
+<img src="{{ site.url }}/assets/img/linuxsh-review/desktop.png" alt="Linuxsh Desktop">
 
-<img src="{{ site.url }}/assets/img/linuxsh-review/Development.png" alt="Linuxsh Developemt tools">
+<img src="{{ site.url }}/assets/img/linuxsh-review/development.png" alt="Linuxsh Developemt tools">
 
 <em> important: </em> 
 for use android 23 system image please following step<br>

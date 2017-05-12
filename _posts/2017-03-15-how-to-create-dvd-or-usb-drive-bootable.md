@@ -11,8 +11,7 @@ tags:
 - dvd-or-usb-drive
 - install-linux
 description: ''
-categories:
-- Linux
+category: Linux
 ---
 
 <img src="{{ site.url }}/assets/img/how-to-create-dvd-or-usb-drive-bootable/linux-usb.jpg" alt="">

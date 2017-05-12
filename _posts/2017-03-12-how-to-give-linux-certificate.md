@@ -8,9 +8,7 @@ tags:
 - linux certificate
 - linux
 description: ''
-categories:
-- Linux
-- Linux Certificate  
+category: Linux
 ---
 
 

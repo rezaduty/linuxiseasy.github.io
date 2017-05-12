@@ -2,7 +2,7 @@
   
     {
       "title"    : "Linux Command Part 2",
-      "category" : "LinuxLinux Command",
+      "category" : "Linux",
       "tags"     : "linux, what is linux, linux command, and important linux command",
       "url"      : "/linux-command-part-2/",
       "date"     : "15 Mar 2017"
@@ -10,7 +10,7 @@
   
     {
       "title"    : "Linux Command Part 1",
-      "category" : "LinuxLinux Command",
+      "category" : "Linux",
       "tags"     : "linux, what is linux, linux command, and important linux command",
       "url"      : "/linux-command-part-1/",
       "date"     : "15 Mar 2017"
@@ -18,7 +18,7 @@
   
     {
       "title"    : "Linux Structure Part 2",
-      "category" : "LinuxLinux Structure",
+      "category" : "Linux",
       "tags"     : "linux, what is linux, linux structure, linux file system, and Kernel",
       "url"      : "/linux-structure-part-2/",
       "date"     : "15 Mar 2017"
@@ -26,7 +26,7 @@
   
     {
       "title"    : "Linux Structure Part 1",
-      "category" : "LinuxLinux Structure",
+      "category" : "Linux",
       "tags"     : "linux, what is linux, linux structure, linux file system, and Kernel",
       "url"      : "/linux-structure-part-1/",
       "date"     : "15 Mar 2017"
@@ -58,7 +58,7 @@
   
     {
       "title"    : "How to give linux certificate",
-      "category" : "LinuxLinux Certificate",
+      "category" : "Linux",
       "tags"     : "how to, linux certificate, and linux",
       "url"      : "/how-to-give-linux-certificate/",
       "date"     : "15 Mar 2017"
@@ -81,10 +81,26 @@
     } ,
   
     {
+      "title"    : "How to Install kazam",
+      "category" : "howto",
+      "tags"     : "",
+      "url"      : "/install-kazam/",
+      "date"     : "06 Apr 2016"
+    } ,
+  
+    {
       "title"    : "Linuxsh Review",
       "category" : "dist_rev",
       "tags"     : "",
       "url"      : "/linuxsh-review/",
+      "date"     : "06 Apr 2016"
+    } ,
+  
+    {
+      "title"    : "top command cheatsheet",
+      "category" : "chsc",
+      "tags"     : "",
+      "url"      : "/top-command/",
       "date"     : "06 Apr 2016"
     } ,
   

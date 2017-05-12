@@ -8,8 +8,7 @@ tags:
 - learn
 - linux
 description: ''
-categories:
-- Linux  
+category: Linux
 ---
 
 <img src="{{ site.url }}/assets/img/all-type-linux/choose-linux-package-670x335.jpg">

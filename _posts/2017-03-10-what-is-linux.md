@@ -11,8 +11,7 @@ tags:
 - linus torvalds
 - richard stallman
 description: ''
-categories:
-- Linux
+category: Linux
 ---
 
 <center><p>Tux is a penguin character and the official mascot of the Linux kernel</p></center>

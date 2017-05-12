@@ -8,12 +8,13 @@ description: "Some description about Victor Igor..."
 	</head>
 	<style type="text/css">
 		body{
-			background: url("{{ site.url }}/assets/img/static/pIOFKah-space-stars-wallpaper.jpg") center fixed;
+			background: url("{{ site.url }}/assets/img/static/back7.png") center fixed;
 			background-size: cover;
 			background-repeat: no-repeat;
 		}
 		p{
-			color: #ffffff;
+			color: #FFFFFF;
+			font-size: large;
 		}
 		/* typography setup*/
 		*{
@@ -68,7 +69,7 @@ description: "Some description about Victor Igor..."
 		text-align:center;
 		font-size:1em;
 		margin:20px 0 20px 0;
-		font-family: Rezvan,'Rezvan',tahoma;
+		font-family: Ubuntu, Rezvan,'Rezvan',tahoma;
 		}
 		a{
 		text-decoration:none;
@@ -87,14 +88,14 @@ description: "Some description about Victor Igor..."
 		animation: neon1 1.5s ease-in-out infinite alternate;
 		}*/
 		p:nth-child(1) a{
-		color:#78ce63;
+		color:#FFFFFF;
 		font-family:Pacifico, Rezvan,'Rezvan',tahoma;
 		
 		}
 		p:nth-child(1) a:hover{
-		-webkit-animation: neon3 1.5s ease-in-out infinite alternate;
-		-moz-animation: neon3 1.5s ease-in-out infinite alternate;
-		animation: neon3 1.5s ease-in-out infinite alternate;
+		-webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+		-moz-animation: neon2 1.5s ease-in-out infinite alternate;
+		animation: neon2 1.5s ease-in-out infinite alternate;
 		}
 		p:nth-child(2) a{
 		font-size:1.5em;
@@ -154,11 +155,11 @@ description: "Some description about Victor Igor..."
 		text-shadow: 0 0 10px #fff,
 		0 0 20px  #fff,
 		0 0 30px  #fff,
-		0 0 40px  #FF1177,
-		0 0 70px  #FF1177,
-		0 0 80px  #FF1177,
-		0 0 100px #FF1177,
-		0 0 150px #FF1177;
+		0 0 40px  #fff,
+		0 0 70px  #fff,
+		0 0 80px  #fff,
+		0 0 100px #fff,
+		0 0 150px #fff;
 		}
 		to {
 		text-shadow: 0 0 5px #fff,
@@ -559,7 +560,8 @@ description: "Some description about Victor Igor..."
 		}
 		}
 		em{
-			color: #20ab6f;
+			color: #3fcdff;
+			text-shadow: 1px 1px 1px black;
 		}
 		h3{
 			color: #46d5ff;
@@ -567,6 +569,23 @@ description: "Some description about Victor Igor..."
 		label{
 			color: #FFFFFF;
 		}
+
+.css-input {
+     padding: 8px;
+     font-size: 18px;
+     border-width: 2px;
+     border-color: #15C779;
+     background-color: #FFFFFF;
+     color: #11C593;
+     border-style: solid;
+     border-radius: 14px;
+     box-shadow: 0px 0px 7px rgba(66,66,66,.36);
+     text-shadow:  -2px 3px 5px px rgba(66,66,66,.75);
+}
+ .css-input:focus {
+     outline:none;
+}
+
 	</style>
 <body>
 {% include menu-search.html %}
@@ -580,7 +599,7 @@ description: "Some description about Victor Igor..."
 	        <div class="form-group">
 	          <center>
 	            <label for txt-search>Please any keyword for find command: &nbsp;</label>
-	            <input type="input" class="form-control input-lg" id="txt-search" placeholder="Type  keyword search">
+	            <input type="input" class="form-control input-lg css-input" id="txt-search" placeholder="Type  keyword search">
 	          </center>
 	        </div>
 		</form>

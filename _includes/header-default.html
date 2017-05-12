@@ -1,3 +1,7 @@
+
+
+
+
 <header class="header-site" role="banner">
     <div class="content">
 
@@ -70,23 +74,65 @@
                 <svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg>
             </a>
         </div>
+        <br>
+
+  <div class="large-3 columns">
 
         <ul class="recent">
-            <p>Recent posts:</p>
-            {% assign postss = (site.posts | sort: 'date') | reverse%}
+            <p>Recent Beginners ᴺᴱᵂ</p>
+            {% assign postss = (site.categories["Linux"]  | sort: 'date') | reverse %}
              {% for post in postss %}
-              {% if post.categories contains 'dist_rev' %}
-                
-              {% else %}
+              
+              
+
                 <li>
                     <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
                         <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
                     </a>
                 </li>
-              {% endif %}
+              
               {% endfor %}
-            <p>Recent Review</p>
-                {% assign postss = (site.posts | sort: 'date') | reverse%}
+        </ul>
+    </div>
+   
+<div class="large-3 columns">
+ <ul class="recent">
+            <p>Recent Cheatsheet and Script ᴺᴱᵂ</p>
+                {% assign postss = (site.posts | sort: 'date') | reverse %}
+                 {% for post in postss %}
+                  {% if post.categories contains 'chsc' %}
+                    <li>
+                        <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
+                            <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+                        </a>
+                    </li>
+                  {% endif %}
+                  {% endfor %}
+                  </ul>
+</div>
+<div class="large-3 columns">
+ <ul class="recent">
+            <p>Recent How to ᴺᴱᵂ</p>
+                {% assign postss = (site.posts | sort: 'date') | reverse %}
+                 {% for post in postss %}
+                  {% if post.categories contains 'howto' %}
+                    <li>
+                        <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
+                            <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+                        </a>
+                    </li>
+                  {% endif %}
+                  {% endfor %}
+</ul>
+            
+</div>
+
+
+
+ <div class="large-3 columns">
+     <ul class="recent">
+            <p>Recent Review ᴺᴱᵂ</p>
+                {% assign postss = (site.posts | sort: 'date') | reverse %}
                  {% for post in postss %}
                   {% if post.categories contains 'dist_rev' %}
                     <li>
@@ -96,10 +142,11 @@
                     </li>
                   {% endif %}
                   {% endfor %}
-        </ul>
+                  </ul>
 
+ <div class="large-12">
         <ul class="recent">
-            <p>Recent projects:</p>
+            <p>Recent projects ᴺᴱᵂ</p>
              {% for project in site.projects limit:5%}
                 <li>
                     <a title="Show my recent project" href="{{ project.url}}">
@@ -108,7 +155,17 @@
                 </li>
               {% endfor %}
         </ul>
+        </div>
+</div>
+</div>
+        </ul>
 
-    </div>
+
+        <br>
+
+
+</div>
+
+
     {% include menu-search.html %}
 </header>

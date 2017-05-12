@@ -9,9 +9,7 @@ tags:
 - linux command
 - important linux command
 description: ''
-categories:
-- Linux
-- Linux Command
+category: Linux
 ---
 
 <center><p>

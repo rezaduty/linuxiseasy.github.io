@@ -9,8 +9,7 @@ tags:
 - How to install a linux distibute
 - what is linux
 description: ''
-categories:
-- Linux
+category: Linux
 ---
 
 <center><p>The number of Linux distributions is declining. In 2011, the Distrowatch database of active Linux distributions peaked at <b>323</b></p></center>

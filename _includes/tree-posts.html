@@ -33,23 +33,53 @@
             </ol>
         </li>
         <li>
-            <label class="underline" for="folder2">Beginning</label>
+            <label class="underline" for="folder2">Cheatsheet and Script</label>
             <input type="checkbox" id="folder2" />
             <ol>
                 <li>
-                    <label for="subfolder2">Tutorials</label>
+                    <label for="subfolder2">CheetSheet & Script List</label>
                     <input type="checkbox" id="subfolder2" />
                     <ol class="four">
-                        {% for post in postss %} {% if post.categories contains 'dist_rev' %} {% else %}
+                        {% for post in site.categories["chsc"] %}
                         <li><a class="tree-post" href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></li>
-                        {% endif %} {% endfor %}
+                        {% endfor %}
                     </ol>
                 </li>
             </ol>
         </li>
         <li>
-            <label class="underline" for="folder3">Projects</label>
+            <label class="underline" for="folder3">How to </label>
             <input type="checkbox" id="folder3" />
+            <ol>
+                <li>
+                    <label for="subfolder3">How to install List</label>
+                    <input type="checkbox" id="subfolder3" />
+                    <ol class="four">
+                        {% for post in site.categories["howto"] %}
+                        <li><a class="tree-post" href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></li>
+                        {% endfor %}
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <label class="underline" for="folder4">Beginning</label>
+            <input type="checkbox" id="folder4" />
+            <ol>
+                <li>
+                    <label for="subfolder4">basic</label>
+                    <input type="checkbox" id="subfolder4" />
+                    <ol class="four">
+                        {% for post in site.categories["Linux"] %}
+                        <li><a class="tree-post" href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></li>
+                        {% endfor %}
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <label class="underline" for="folder5">Projects</label>
+            <input type="checkbox" id="folder5" />
             <ol class="four">
                 <li><a class="tree-post" href="{{ site.url }}/ls">LPS</a></li>
                 <li><a class="tree-post" href="{{ site.url }}/cs">CPS</a></li>
@@ -57,8 +87,8 @@
             </ol>
         </li>
         <li>
-            <label class="underline" for="folder4">Subscribe</label>
-            <input type="checkbox" id="folder4" />
+            <label class="underline" for="folder6">Subscribe</label>
+            <input type="checkbox" id="folder6" />
             <ol class="four">
                 <li>
                     <div id="mc_embed_signup">

@@ -990,6 +990,7 @@ body {
     width: auto;
     max-width: 450px;
     float: none;
+    background: #1b1b1b;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -1015,6 +1016,7 @@ body {
 
 .header-site .recent p {
     text-align: left;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(52, 10, 84));
     font-weight: bold;
     color: #fff
 }
@@ -1022,6 +1024,7 @@ body {
 .header-site .recent a {
     text-decoration: none;
 }
+
 
 .header-site .recent a h2 {
     text-align: left;
@@ -1552,7 +1555,7 @@ body {
     margin: .938rem;
     width: 9%;
     height: 4%;
-    fill: white;
+    fill: #4b2194;
 }
 
 .share a {
@@ -1666,7 +1669,7 @@ pre {
 .top_subject{
     width:220px; 
     height:250px;
-     top:1% ;
+     top:-4% ;
      left:31%;
     position: absolute;
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
@@ -3008,7 +3011,7 @@ hr {
   display: -ms-flexbox;
   display: flex;
   position: inherit;
-  margin: 1% 36%;
+  margin: 1% 22%;
 }
 
 .social-icon {
@@ -3442,3 +3445,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     #mc_embed_signup{height: 120px; clear:left; font:14px Helvetica,Arial,sans-serif;  width:250px;}
     /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+code{
+    background: #211536 !important;
+    border: 0px solid #FFFFFF !important;
+    color: #FFFFFF;
+}
+.tooltip{
+    max-width: 100rem !important;
+}

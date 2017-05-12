@@ -10,9 +10,7 @@ tags:
 - linux file system
 - Kernel
 description: ''
-categories:
-- Linux
-- Linux Structure
+category: Linux
 ---
 
 <center><p>
