@@ -3454,3 +3454,7 @@ code{
 .tooltip{
     max-width: 100rem !important;
 }
+
+.new{
+    color: #ff9d00;
+}

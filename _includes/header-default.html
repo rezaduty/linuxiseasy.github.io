@@ -79,7 +79,7 @@
   <div class="large-3 columns">
 
         <ul class="recent">
-            <p>Recent Beginners ᴺᴱᵂ</p>
+            <p>Recent Beginners <font class="new">ᴺᴱᵂ</font></p>
             {% assign postss = (site.categories["Linux"]  | sort: 'date') | reverse %}
              {% for post in postss %}
               
@@ -97,7 +97,7 @@
    
 <div class="large-3 columns">
  <ul class="recent">
-            <p>Recent Cheatsheet and Script ᴺᴱᵂ</p>
+            <p>Recent Cheatsheet and Script <font class="new">ᴺᴱᵂ</font></p>
                 {% assign postss = (site.posts | sort: 'date') | reverse %}
                  {% for post in postss %}
                   {% if post.categories contains 'chsc' %}
@@ -112,7 +112,7 @@
 </div>
 <div class="large-3 columns">
  <ul class="recent">
-            <p>Recent How to ᴺᴱᵂ</p>
+            <p>Recent How to <font class="new">ᴺᴱᵂ</font></p>
                 {% assign postss = (site.posts | sort: 'date') | reverse %}
                  {% for post in postss %}
                   {% if post.categories contains 'howto' %}
@@ -131,7 +131,7 @@
 
  <div class="large-3 columns">
      <ul class="recent">
-            <p>Recent Review ᴺᴱᵂ</p>
+            <p>Recent Review <font class="new">ᴺᴱᵂ</font></p>
                 {% assign postss = (site.posts | sort: 'date') | reverse %}
                  {% for post in postss %}
                   {% if post.categories contains 'dist_rev' %}
@@ -146,7 +146,7 @@
 
  <div class="large-12">
         <ul class="recent">
-            <p>Recent projects ᴺᴱᵂ</p>
+            <p>Recent projects <font class="new">ᴺᴱᵂ</font></p>
              {% for project in site.projects limit:5%}
                 <li>
                     <a title="Show my recent project" href="{{ project.url}}">
