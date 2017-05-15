@@ -1,11 +1,14 @@
-# This Project bases on Space-jekyll-theme
+# This Project bases on Space-jekyll
+
+very special thanks Victor Igor
+
+# Linuxsh
 
 very special thanks :arrow_right: Victor Igor :arrow_left:
 A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
 
-# Linuxsh
-
 :white_check_mark: Linux document and remaster linux for everyone
+
 
 [![Travis branch](https://img.shields.io/travis/rust-lang/rust/master.svg)]()
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
@@ -13,9 +16,10 @@ A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mo
 
 See a live demo [here](https://rezaduty.github.io/linuxsh).
 
-![](https://www.dropbox.com/s/31it9ov78xnda7u/https%20%20%20rezaduty.github.io%20linuxsh%20.png?dl=1)
-![](https://www.dropbox.com/s/lyve6ldfuzhtctn/linuxpost.png?dl=1)
-![](https://www.dropbox.com/s/8zw4yrlvcl7sg31/Command%20Line%20Search.png?dl=1)
+![](https://www.dropbox.com/s/rrqo9uc24d9vzfa/linuxshhome.png?dl=1)
+![](https://www.dropbox.com/s/d371khjj014dbxx/linuxshindexx.png?dl=1)
+![](https://www.dropbox.com/s/azpdicvp8aw4zfr/linuxshpost.png?dl=1)
+![](https://www.dropbox.com/s/ymt13ua48upiui4/linuxshcommandlinesearch.png?dl=1)
 ![](https://www.dropbox.com/s/czfvnzjn28nl47p/linuxmap.png?dl=1)
 
 
