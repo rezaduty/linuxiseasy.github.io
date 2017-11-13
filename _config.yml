@@ -1,16 +1,16 @@
 # Site settings
 title: Linux Docs - rezaduty
 description: "A document about linux works and create customize linux ..."
-baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
-url: "https://rezaduty.github.io/linuxsh" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+baseurl: "https://linuxiseasy.github.io" # for test: remove string '/space-jekyll-templa' to ''
+url: "https://linuxiseasy.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 #social url
 slack_url: "https://linuxsh.slack.com/"
-git_url: "https://github.com/rezaduty/linuxsh/"
+git_url: "https://github.com/linuxiseasy/linuxiseasy.github.io"
 # Linuxsh iso location
-_dev: "https://github.com/rezaduty/linuxsh/releases/latest"
-_base: "https://github.com/rezaduty/linuxsh/releases/latest"
+_dev: "https://github.com/linuxiseasy/linuxiseasy.github.io/releases/latest"
+_base: "https://github.com/linuxiseasy/linuxiseasy.github.io/releases/latest"
 # source
-_source: https://github.com/rezaduty/linuxsh
+_source: https://github.com/linuxiseasy/linuxiseasy.github.io
 
 # top subject
 top_subject:   :dizzy:Linuxsh is ready for use
