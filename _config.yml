@@ -24,11 +24,11 @@ top_information: shut
 # User settings
 username: Linux
 user_title: Linux Docs
-email: reza.duty.persian@gmail.com
-twitter_username: rezaduty
-github_username:  rezaduty
-gplus_username:  rezaduty
-disqus_username: rezaduty
+email: linuxsh8@gmail.com
+twitter_username: linuxiseasy
+github_username:  linuxiseasy
+gplus_username:  linuxiseasy
+disqus_username: linuxiseasy
 
 # Build settings
 markdown: kramdown

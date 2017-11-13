@@ -52,11 +52,6 @@ this website built with jekyll
 very special thanks :arrow_right: Victor Igor :arrow_left:
 A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
 
-:white_check_mark: Linux document and remaster linux for everyone
-
-
-
-
 ![](https://www.dropbox.com/s/rrqo9uc24d9vzfa/linuxshhome.png?dl=1)
 ![](https://www.dropbox.com/s/d371khjj014dbxx/linuxshindexx.png?dl=1)
 ![](https://www.dropbox.com/s/azpdicvp8aw4zfr/linuxshpost.png?dl=1)
