@@ -1661,7 +1661,7 @@ pre {
 
 @media only screen and (min-width:37.5rem) {
     pre {
-        font-size: 9px;
+        font-size: 5pt;
         padding: 1.25rem 0;
         margin: 1.25rem 0
     }
