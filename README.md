@@ -1,2 +1,0 @@
-# linuxiseasy.github.io
-LinuxIsEasy
