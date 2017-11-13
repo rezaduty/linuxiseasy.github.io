@@ -8,8 +8,8 @@
 	<a href="https://github.com/ellerbrock/open-source-badge/">
 		<img src="https://img.shields.io/travis/rust-lang/rust/master.svg" alt="open source">
 	</a>
-	<a href="https://github.com/ellerbrock/open-source-badge/">
-		<img src="https://img.shields.io/packagist/l/doctrine/orm.svg" alt="open source">
+	<a href="https://en.wikipedia.org/wiki/GNU_General_Public_License">
+		<img src="https://img.shields.io/badge/license-GPL-brightgreen.svg" alt="open source">
 	</a>
 	<a href="https://github.com/ellerbrock/open-source-badge/">
 		<img src="https://img.shields.io/badge/Powered-jekyll-brightgreen.svg" alt="open source">
