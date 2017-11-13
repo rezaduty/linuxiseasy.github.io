@@ -14,11 +14,9 @@
 	<a href="https://github.com/ellerbrock/open-source-badge/">
 		<img src="https://img.shields.io/badge/Powered-jekyll-brightgreen.svg" alt="open source">
 	</a>
-
 	<a href="https://github.com/ellerbrock/open-source-badge/">
 		<img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=102" alt="open source">
 	</a>
-	
 	<a href="https://saythanks.io/to/rezaduty">
 		<img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="open source">
 	</a>
@@ -31,9 +29,9 @@
 
 See a live demo [here](https://linuxiseasy.github.io).
 
-in Telegram  [here](https://linuxiseasy.github.io).
+in Telegram  [here](https://www.instagram.com/linuxiseasy/).
 
-in Instagram  [here](https://linuxiseasy.github.io).
+in Instagram  [here](https://telegram.me/linuxiseasy).
 
 ## is linux group for contact with other people
 
