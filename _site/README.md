@@ -1,20 +1,54 @@
-# This Project bases on Space-jekyll
+<h1 align="center">
+  <br>
+  <a href="http://rezaduty.blog.ir/"><img src="logo.png" alt="Markdownify" width="200"></a>
 
-very special thanks Victor Igor
+</h1>
 
-# Linuxsh
+<p align="center">
+	<a href="https://github.com/ellerbrock/open-source-badge/">
+		<img src="https://img.shields.io/travis/rust-lang/rust/master.svg" alt="open source">
+	</a>
+	<a href="https://en.wikipedia.org/wiki/GNU_General_Public_License">
+		<img src="https://img.shields.io/badge/license-GPL-brightgreen.svg" alt="open source">
+	</a>
+	<a href="https://github.com/ellerbrock/open-source-badge/">
+		<img src="https://img.shields.io/badge/Powered-jekyll-brightgreen.svg" alt="open source">
+	</a>
+	<a href="https://github.com/ellerbrock/open-source-badge/">
+		<img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=102" alt="open source">
+	</a>
+	<a href="https://saythanks.io/to/rezaduty">
+		<img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="open source">
+	</a>
+</p>
+
+
+# What is Linuxiseasy
+
+## is website for online training 
+
+See a live demo [here](https://linuxiseasy.github.io).
+
+in Telegram  [here](https://www.instagram.com/linuxiseasy/).
+
+in Instagram  [here](https://telegram.me/linuxiseasy).
+
+## is linux group for contact with other people
+
+## is remaster linux for any field people(developer,...)
+
+# Download Linux custom iso
+
+See review this version(called Linuxsh) [here](https://linuxiseasy.github.io/linuxsh-review).
+
+for download please goto `releases`
+
+# Website Theme and System
+
+this website built with jekyll
 
 very special thanks :arrow_right: Victor Igor :arrow_left:
 A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
-
-:white_check_mark: Linux document and remaster linux for everyone
-
-
-[![Travis branch](https://img.shields.io/travis/rust-lang/rust/master.svg)]()
-[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
-[![Jekyll](https://img.shields.io/badge/Powered-jekyll-brightgreen.svg)](https://jekyllrb.com/)
-
-See a live demo [here](https://rezaduty.github.io/linuxsh).
 
 ![](https://www.dropbox.com/s/rrqo9uc24d9vzfa/linuxshhome.png?dl=1)
 ![](https://www.dropbox.com/s/d371khjj014dbxx/linuxshindexx.png?dl=1)
@@ -23,8 +57,8 @@ See a live demo [here](https://rezaduty.github.io/linuxsh).
 ![](https://www.dropbox.com/s/czfvnzjn28nl47p/linuxmap.png?dl=1)
 
 
+# Website base subject :rocket:
 
-# Subjects :rocket:
 - [x] What is Linux
 - [x] All type linux
 - [x] How to give linux certificate
@@ -109,24 +143,20 @@ twitter_text: 'How to speak with Lorem'
 
 ## License
 
-The MIT License (MIT)
+The GPL License (GPL)
 
-Copyright (c) 2017 rezaduty
+Copyright (c) 2017 rezaduty <reza.duty.persian@gmail.com>
+http://linuxiseasy.github.io/
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The GNU General Public License is a free, copyleft license for software and other kinds of works.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users. We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors. You can apply it to your programs, too.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+
+
+
+<h1 align="center">
+  <br>
+  <a href="http://rezaduty.blog.ir/"><img src="https://raw.githubusercontent.com/rezaduty/Tahririye_man/master/rezaduty.png" alt="Markdownify" width="200"></a>
+
+</h1>
