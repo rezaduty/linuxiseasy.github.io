@@ -29,9 +29,9 @@
 
 See a live demo [here](https://linuxiseasy.github.io).
 
-in Telegram  [here](https://www.instagram.com/linuxiseasy/).
+in Telegram  [here](https://telegram.me/linuxiseasy).
 
-in Instagram  [here](https://telegram.me/linuxiseasy).
+in Instagram  [here](https://www.instagram.com/linuxiseasy/).
 
 ## is linux group for contact with other people
 
