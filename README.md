@@ -43,6 +43,8 @@ See review this version(called Linuxsh) [here](https://linuxiseasy.github.io/lin
 
 for download please goto `releases`
 
+![home screen](/assets/img/linuxsh-review/development.png "")
+
 # Website Theme and System
 
 this website built with jekyll
