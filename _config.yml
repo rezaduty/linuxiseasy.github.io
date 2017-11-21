@@ -68,11 +68,11 @@ links:
 # projects in header index
 projects:
   - name: Command Line Search
-    url: /linuxsh/cs
+    url: /cs
   - name: Link Planet Search
-    url: /linuxsh/ls
+    url: /ls
   - name: Linux Map
-    url: /linuxsh/linuxmap
+    url: /linuxmap
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
 
