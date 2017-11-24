@@ -29,9 +29,9 @@
 
 See a live demo [here](https://linuxiseasy.github.io).
 
-in Telegram  [here](https://www.instagram.com/linuxiseasy/).
+in Telegram  [here](https://telegram.me/linuxiseasy).
 
-in Instagram  [here](https://telegram.me/linuxiseasy).
+in Instagram  [here](https://www.instagram.com/linuxiseasy/).
 
 ## is linux group for contact with other people
 
@@ -43,6 +43,8 @@ See review this version(called Linuxsh) [here](https://linuxiseasy.github.io/lin
 
 for download please goto `releases`
 
+![home screen](/assets/img/linuxsh-review/development.png "")
+
 # Website Theme and System
 
 this website built with jekyll
@@ -50,11 +52,8 @@ this website built with jekyll
 very special thanks :arrow_right: Victor Igor :arrow_left:
 A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
 
-![](https://www.dropbox.com/s/rrqo9uc24d9vzfa/linuxshhome.png?dl=1)
-![](https://www.dropbox.com/s/d371khjj014dbxx/linuxshindexx.png?dl=1)
-![](https://www.dropbox.com/s/azpdicvp8aw4zfr/linuxshpost.png?dl=1)
-![](https://www.dropbox.com/s/ymt13ua48upiui4/linuxshcommandlinesearch.png?dl=1)
-![](https://www.dropbox.com/s/czfvnzjn28nl47p/linuxmap.png?dl=1)
+![home screen](home_screen.png "")
+
 
 
 # Website base subject :rocket:
