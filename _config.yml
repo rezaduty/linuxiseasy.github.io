@@ -1,5 +1,5 @@
 # Site settings
-title: Linux Docs - rezaduty
+title: linuxiseasy - Linux docs
 description: "A document about linux works and create customize linux ..."
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
 url: "" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
