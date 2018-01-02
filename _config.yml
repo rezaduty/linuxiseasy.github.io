@@ -63,8 +63,8 @@ links:
     url: /ls
   - title: about me
     url: /about
-  - title: indexx
-    url: /indexx
+  - title: en
+    url: /en
 # projects in header index
 projects:
   - name: Command Line Search
