@@ -1,0 +1,206 @@
+<html>
+<head>
+<style type="text/css">
+/* normalize css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    line-height: 1.2em;
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block; /* back up for less than ie9, though no styling would be applied */
+}
+
+html {
+    font: 62.5%/1.2em normal arial, verdana, sans-serif;
+    height: 100%;
+}
+
+body {
+    font-size: 140%;
+    color: #0b0c0c;
+}
+
+main {
+    overflow: hidden;
+    width: 100%;
+}
+
+img {
+    height: auto;/* fluid approach */
+    max-width: 100%;
+}
+
+/* clear fix - latest */
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+    height: 0;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.screen-reader {
+    position:absolute;
+    text-indent:-9999px;
+    height:0;
+}
+
+.main-wrapper {
+    padding: 1.5em;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+.global-hdr h1 {
+    font-weight: bold;
+    font-size: 2.25em;
+    padding: 0 0 1.25em 0;
+}
+
+.global-ftr {
+    background-color: #dee0e2;
+    border-top: 1px solid #a1acb2;
+    margin: 2em 0 0 0;
+    padding: 2em 1em;
+    clear: both;
+}
+
+.main-hdr {
+    font-size: 1.75em;
+    padding-bottom: .5em;
+}
+
+.book-list a {
+    text-decoration: underline;
+    color: #00e;
+    padding: .5em;
+}
+
+.book-list a:visited {
+    color: #2e8aca;
+}
+
+.book-list a:hover {
+    background-color: #ffc;
+}
+
+.book-list a:focus {
+    background-color: #dedede;
+    outline: none;
+}
+
+.book-list strong {
+    font-weight: bold;
+}
+
+.book-list li {
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 1em;
+    border:1px solid #999;
+    border-left: 0;
+    border-right: 0;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size:.96em;
+}
+
+.book-list p {
+  line-height: 1.25em;
+}
+
+.book-list li br {
+    display: none;
+}
+
+.book-list h2 {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0 0 .5em 0;
+}
+
+.book-list img {
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    filter: grayscale(1);
+    float: left;
+    padding-right: 1em;
+    max-height: 100px;
+}
+
+/* small */
+/* part of main css - mobile first, so build small styles first*/
+
+/* medium */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/*large */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .book-list li {
+        float: left;
+        width: 50%;
+        height: 200px;
+        max-height: 200px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .main-wrapper {
+        max-width: 1200px;
+    }
+    .book-list li {
+        float: left;
+        width: 33.3%;
+        height: 200px;
+        max-height: 200px;
+        padding: 1em;
+    }
+    .book-list p {
+        line-height: 1.4em;
+    }
+    .book-list img {
+        max-height: 120px;
+    }
+}
+
+/* x-large */
+@media only screen and (min-width:1200px) {
+
+}
+</style>
+</head>
+<body class="no-js">
+
+<!-- skip link -->
+<a href="#main" class="screen-reader">Jump to main page content</a>
+
+<div class="main-wrapper">
+
+    <header class="global-hdr" role="banner">
+        <h1>Google Book API Example (Vanilla JS)</h1>
+    </header>
+
+    <main id="main" role="main">
+        <h1 class="main-hdr">Book list</h1>
+        <section id="bookList" class="book-list"></section>
+    </main>
+
+    <footer class="global-ftr" role="contentinfo">
+       <p><small>footer text here...</small></p>
+    </footer>
+</div>
+
+<!-- bottom of page for quicker page rendering - would use min version in prod. -->
+<script src="js/bookList.js"></script>
+</html>
